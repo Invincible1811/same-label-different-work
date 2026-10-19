@@ -1,0 +1,35 @@
+# Dataset must not be redistributed in the replication package
+data/raw/
+data/processed/
+*.csv.zip
+data.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Course handouts: instructor material, kept locally, not redistributed
+docs/course_material/
+
+# Cited papers: third-party copyright, kept locally, not redistributed
+docs/literature/
+
+# Private working notes (study plan, lecture notes, to-do list, study guide): kept locally, not shared
+docs/private/
+
+# Office lock files
+~$*

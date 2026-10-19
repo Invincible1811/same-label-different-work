@@ -1,0 +1,22 @@
+step,decision,rows_before,rows_after,removed,note
+0 load,D1,5000,5000,0,Raw issues.csv loaded; raw files are never modified.
+1 drop pull requests,D2,5000,4982,18,"is_pull_request == True; PRs follow a review/merge lifecycle, not an issue lifecycle."
+2 drop re-submitted duplicates,D3,4982,4952,30,"Same repo, title and body (case/whitespace/punctuation normalised) re-posted within 24 h; first copy kept. Recurring reports further apart are distinct events. Issues *closed as* 'duplicate' by maintainers are a real outcome and are kept."
+flag: closure_reason unknown,D6,4952,4952,0,"0 flagged (0.0%). Closed issues with an empty state_reason, recoded to 'unknown'."
+flag: open (censored),D6/D12,4952,4952,0,1677 flagged (33.9%). Kept; TTC undefined; censored at snapshot 2026-10-09T17:48:25Z for Kaplan-Meier.
+flag: instant close (< 1 min),D5,4952,4952,0,47 flagged (0.9%). Kept (genuine open-then-close workflows); no outlier trimming.
+flag: TTC > 1 year,D5,4952,4952,0,"119 flagged (2.4%). Kept; handled by median-based, non-parametric statistics."
+flag: bot-authored,D8,4952,4952,0,2278 flagged (46.0%). agent_type kept as given; used for the User-only sensitivity check (S2).
+flag: created before agent release,D8,4952,4952,0,10 flagged (0.2%). agent_type kept as given; excluded only in sensitivity check S1.
+flag: attribution: agent_own_bot,D15,4952,4952,0,"2091 flagged (42.2%). Mutually exclusive, in this priority order (M1.10)."
+flag: attribution: automation_echo,D15,4952,4952,0,"134 flagged (2.7%). Mutually exclusive, in this priority order (M1.10)."
+flag: attribution: self_referential_repo,D15,4952,4952,0,"189 flagged (3.8%). Mutually exclusive, in this priority order (M1.10)."
+flag: attribution: other_signal,D15,4952,4952,0,"2538 flagged (51.3%). Mutually exclusive, in this priority order (M1.10)."
+flag: excluded from S3 precision subset,D15,4952,4952,0,361 flagged (7.3%). github-actions[bot] authors or self-referential repos (CodAGE recipe steps 1 and 3).
+flag: agent below inference threshold,D7,4952,4952,0,"6 flagged (0.1%). Copilot, Cursor (< 30 closed issues): RQ1 descriptives only."
+flag: repo renamed since archive,D14,4952,4952,0,533 flagged (10.8%). Kept; repo_name used as the repository key.
+flag: issue transferred to another repo,D14,4952,4952,0,13 flagged (0.3%). Kept; API timestamps verified consistent with the archive.
+flag: empty body,D10,4952,4952,0,128 flagged (2.6%). Kept; title still provides text.
+flag: language: non_latin,D13,4952,4952,0,695 flagged (14.0%). Kept for RQ1/RQ2; excluded from the RQ3 topic model (English LDA).
+flag: language: latin_non_english,D13,4952,4952,0,48 flagged (1.0%). Kept for RQ1/RQ2; excluded from the RQ3 topic model (English LDA).
+3 final analysis table,D1,5000,4952,48,"4952 issues, 3466 repos, 3275 closed, 3269 RQ2-eligible across 11 agents. issue_comments.csv not used (D11)."

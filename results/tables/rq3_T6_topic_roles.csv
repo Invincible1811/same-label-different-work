@@ -1,0 +1,13 @@
+agent,own_bot_docs,other_docs,chi2,df,p_perm,cramers_v,effect,topic,label,own_bot_mean_share_pct,other_mean_share_pct
+CodeRabbit,1428,238,132.025,4,9.999e-05,0.281508,small,,,,
+CodeRabbit,,,,,,,,1,"Testing, review and quality follow-ups",22.4428,17.8609
+CodeRabbit,,,,,,,,2,Topic 2,11.3916,18.0736
+CodeRabbit,,,,,,,,3,"LLM, agent and model features",5.39712,15.2692
+CodeRabbit,,,,,,,,4,Code-level fixes and refactoring,45.3495,20.1286
+CodeRabbit,,,,,,,,5,"Build, CI and repository workflow",15.419,28.6678
+Devin,267,78,19.776,4,0.00039996,0.239419,small,,,,
+Devin,,,,,,,,1,"Testing, review and quality follow-ups",23.8617,17.8509
+Devin,,,,,,,,2,Topic 2,19.6654,16.1245
+Devin,,,,,,,,3,"LLM, agent and model features",9.4457,24.5099
+Devin,,,,,,,,4,Code-level fixes and refactoring,24.4382,23.4317
+Devin,,,,,,,,5,"Build, CI and repository workflow",22.589,18.0829

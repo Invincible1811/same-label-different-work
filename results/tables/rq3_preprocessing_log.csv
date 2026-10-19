@@ -1,0 +1,11 @@
+stage,value
+all cleaned issues,4952
+issues of the 11 tested agents,4946
+English issues (D13),4203
+documents with >= 10 tokens after cleaning (modelled),3816
+signature/trigger lines removed,1733
+template lines removed (masked line in >= 10 issues),17654
+distinct template line patterns,347
+median tokens per modelled document,65
+distinct terms before vocabulary filtering,21644
+phrases (bigrams) in vocabulary,415

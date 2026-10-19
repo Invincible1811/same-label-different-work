@@ -1,0 +1,1346 @@
+label_norm,category,n_issues
+enhancement,feature,600
+sweep,agent_workflow,446
+bug,bug,329
+documentation,documentation,130
+good first issue,other,97
+help wanted,other,49
+security,other,49
+stale,other,45
+refactor,other,45
+feature,feature,44
+backend,other,42
+testing,other,39
+automated,agent_workflow,38
+automation,agent_workflow,36
+frontend,other,32
+code-review,other,32
+amazon-q,agent_workflow,32
+needs-review,other,32
+performance,other,28
+dependencies,other,25
+migrated,other,24
+question,other,23
+unapproved,other,22
+chore,other,19
+priority:high,other,16
+priority:medium,other,16
+ui/ux,other,15
+test,other,15
+priority-high,other,14
+architecture,other,13
+task,other,13
+priority: high,other,13
+devin,agent_workflow,13
+wontfix,other,13
+cleanup,other,12
+needs-triage,other,12
+high-priority,other,12
+ai,other,12
+p2,other,12
+epic,other,11
+priority: medium,other,11
+ci,other,11
+refactoring,other,11
+ui,other,11
+duplicate,other,11
+invalid,other,11
+ux,other,10
+p3,other,10
+kind/bug,bug,10
+🐛 bug,bug,10
+🎯 phase:planning,other,10
+low,other,10
+p1-high,other,9
+critical,other,9
+amazon q development agent,agent_workflow,9
+area/core,other,9
+📥 state:pending,other,9
+triaged,other,9
+improvement,feature,9
+infrastructure,other,9
+status/need-triage,other,8
+type: bug,bug,8
+priority-medium,other,8
+type: feature,feature,8
+priority:critical,other,8
+agentic-workflows,agent_workflow,8
+🤖 gemini-refactor,agent_workflow,8
+loom:building,other,8
+type/bug,bug,8
+no-issue-activity,other,8
+priority/p1,other,8
+ci-failure,bug,8
+❔question,other,8
+priority: low,other,8
+priority:p2,other,7
+status/bot-triaged,agent_workflow,7
+infra,other,7
+released,other,7
+priority:p1,other,7
+feature-request,feature,7
+story,other,7
+type:bug,bug,7
+feat,feature,7
+type: enhancement,feature,7
+community,other,6
+copilot,agent_workflow,6
+todo,other,6
+feature request,feature,6
+research,other,6
+javascript,other,6
+jules,agent_workflow,6
+priority/p2,other,6
+tech-debt,other,6
+repo-assist,agent_workflow,6
+type:feature,feature,6
+triage,other,6
+📊 priority:p2-medium,other,6
+area:ui,other,6
+priority/high,other,6
+area-workflows,other,6
+priority:media,other,6
+fleet,other,6
+priority/p0,other,5
+wont-fix,other,5
+type: community contribution,other,5
+✨ type:feature,feature,5
+tdd,other,5
+lifecycle/stale,other,5
+medium,other,5
+roadmap,other,5
+web診断,other,5
+high,other,5
+digest,other,5
+status/possible-duplicate,other,5
+typescript,other,5
+p0-critical,other,5
+daily,other,5
+p1,other,5
+cli,other,5
+p2-medium,other,5
+hacktoberfest,other,5
+feature_request,feature,5
+has repro,other,5
+docs,documentation,5
+type checking,other,5
+integration,other,4
+fix,bug,4
+type:enhancement,feature,4
+code-quality,other,4
+knowledge-base,other,4
+squad/data,other,4
+type/task,other,4
+hacktoberfest-accepted,other,4
+claude-code,agent_workflow,4
+compliance,other,4
+component,other,4
+crash,bug,4
+team/extensibility,other,4
+core team,other,4
+sync,other,4
+llm,other,4
+autoteam,other,4
+triage/accepted,other,4
+amazon q transform agent,agent_workflow,4
+priority: normal,other,4
+priority: critical,other,4
+🔒 maintainer only,other,4
+area/security,other,4
+area/platform,other,4
+plan,other,4
+p0,other,4
+pipeline,other,4
+priority:p0,other,4
+operation,other,4
+agent-task,other,4
+♻️refactor,other,4
+priority:low,other,4
+low-priority,other,4
+area/connectors,other,4
+codegen-experiment,other,3
+github-actions,other,3
+code quality,other,3
+team/use,other,3
+planned,other,3
+feature ✨,feature,3
+cross-repo,other,3
+phase-2,other,3
+type: testing,other,3
+effort-medium,other,3
+test-infra,other,3
+claude,agent_workflow,3
+github,other,3
+platform:macos,other,3
+status/need-information,other,3
+report,other,3
+agents,other,3
+risk:medium,other,3
+reliability,other,3
+ci-cd,other,3
+executor: human,other,3
+status:backlog,other,3
+eddiehub:good-first-issue,other,3
+ai-authored,other,3
+utxo sweeping,agent_workflow,3
+needs:tests,other,3
+phase-3,other,3
+📊 priority:p0-critical,other,3
+setup,other,3
+experiment,other,3
+phase1,other,3
+configs,other,3
+sast,other,3
+area-infrastructure,other,3
+workflow,other,3
+area:core,other,3
+autoclose,other,3
+quality,other,3
+auto-generated,other,3
+tooling,other,3
+manifest-only feature gaps,feature,3
+auth,other,3
+atomic,other,3
+size-s,other,3
+web,other,3
+lang:rust,other,3
+shared,other,3
+severity:medium,other,3
+self-hosted,other,3
+license,other,3
+severity:high,other,3
+priority/medium,other,3
+api,other,3
+kind/feature-request,feature,3
+app 💻,other,3
+stellar wave,other,3
+weekly-trending,other,3
+untriaged,other,3
+intel,other,3
+area: frontend,other,3
+🙏 help wanted,other,3
+⚠️ priority:p1-high,other,3
+data,other,3
+area:analyzer,other,3
+blocked,other,3
+sweepai,agent_workflow,3
+kilo-auto-fix,other,3
+kilo-triaged,other,3
+tsdoc,documentation,3
+medium priority,other,3
+area/ci-cd,other,3
+phase-1,other,2
+feature-clients,feature,2
+question 使用问题,other,2
+python,other,2
+python 3.9,other,2
+phase 1,other,2
+python lang,other,2
+plant,other,2
+epic:cv-agent,other,2
+document 文档,documentation,2
+priority/low,other,2
+priority/minor,other,2
+devops,other,2
+priority-low,other,2
+priority/p1-high,other,2
+difficulty: medium,other,2
+priority/p3,other,2
+discovery,other,2
+distribution,other,2
+doc-catchup,documentation,2
+ppl,other,2
+priority: p0,other,2
+phase-two,other,2
+technical-debt,other,2
+effort/s,other,2
+platform:linux,other,2
+priority:normal,other,2
+ready,other,2
+effort:large,other,2
+plan-me,other,2
+effort:s,other,2
+effort:small,other,2
+team-extension-platform,other,2
+priority:p3,other,2
+features,feature,2
+loom:curated,other,2
+ff2,other,2
+needs consideration,other,2
+monitoring,other,2
+mvp,other,2
+rss,other,2
+route:review,other,2
+independent-execution,other,2
+inactive,other,2
+state-management,other,2
+internal,other,2
+route:ready,other,2
+importance-6,other,2
+implementation,other,2
+state:stale,other,2
+idea-credit: @thejollylama,other,2
+idea-adopted,other,2
+modernization-p3,other,2
+investigation,other,2
+supabase,other,2
+mcp,other,2
+loom:issue,other,2
+lite-compatible,other,2
+size-xl,other,2
+size/l,other,2
+manual-assignment,other,2
+size: xl,other,2
+desktop,other,2
+ipc,other,2
+kind/feature,feature,2
+size:m,other,2
+skill,other,2
+slice,other,2
+keep,other,2
+merge-request,feature,2
+ide,other,2
+status-10:pr-created,other,2
+route:priority-low,other,2
+status:needs-triage,other,2
+onlydust-wave,other,2
+optimization,other,2
+oracle-family,other,2
+refinement,other,2
+gap-analysis,other,2
+reference-repo,other,2
+functions,other,2
+status/need-retesting,other,2
+fs-trait,other,2
+os:linux,other,2
+story-points: 8,other,2
+follow-up,other,2
+strezless musick,other,2
+p1: high,other,2
+o-robot,other,2
+gemini-2.5-flash,agent_workflow,2
+github-trending,other,2
+repo/jetbrains,other,2
+github-workflows-metrics,other,2
+go,other,2
+status: needs-triage,other,2
+status: in-progress,other,2
+status: completed,other,2
+gs,other,2
+new-article,other,2
+nestjs,other,2
+responsive-design,other,2
+hardening,other,2
+hardware,other,2
+review-needed,other,2
+needs-info,other,2
+status:done,other,2
+priority/important-longterm,other,2
+design-system,other,2
+be,other,2
+week-3,other,2
+bounty: 1 bnut,other,2
+blog,other,2
+blocker,other,2
+beta-campaign,other,2
+wh,other,2
+bash lang,other,2
+webapp,other,2
+backlog,other,2
+windows,other,2
+assign-to-claude,agent_workflow,2
+area:workflows,other,2
+wrk-item,other,2
+zl-import,other,2
+week-1-foundation,other,2
+c-test-failure,other,2
+type: security,other,2
+upstream-sync,other,2
+type:chore,other,2
+type:epic,other,2
+completed,other,2
+type:task,other,2
+codex,agent_workflow,2
+coderabbitai,agent_workflow,2
+user-story,other,2
+vulnerability,other,2
+using ai,other,2
+category:performance,other,2
+v0.2.6-ci-deps,other,2
+v1.2.5,other,2
+vibe-coder,other,2
+c:evm,other,2
+area:frontend,other,2
+♻️ code quality,other,2
+♻️ low priority,other,2
+📝 documentation,documentation,2
+💉devops,other,2
+ai-release,other,2
+ai-generated,other,2
+agent-ops,other,2
+📚 type:docs,documentation,2
+agent-devops,other,2
+agent,other,2
+♻️ refactor,other,2
+acwoc,other,2
+accessibility,other,2
+accepted,other,2
+🧑‍💻 tech-debit,other,2
+🧪 tests,other,2
+0. needs triage,other,2
+👋 good first issue,other,2
+analysis,other,2
+analytics,other,2
+🏷️ type: 💪 enhancement,feature,2
+approved,other,2
+area-auth,other,2
+🎯 phase:development,other,2
+area-ui,other,2
+area/agent,other,2
+리펙터링,other,2
+area/enterprise,other,2
+area/icp,other,2
+area/metal-automation,other,2
+➕ feature,feature,2
+❎governance,other,2
+area: auth,other,2
+area: backend,other,2
+component:ui,other,2
+area:tui,other,2
+type: project-management,other,2
+cost-reduction,other,2
+type-tests,other,2
+core-logic,other,2
+dashboard,other,2
+configuration,other,2
+dependabot-sweep,agent_workflow,2
+type/enhancement,feature,2
+correctness,other,2
+content,other,2
+type/chore,other,2
+data-loss,other,2
+type/impl,other,2
+swift,other,1
+编辑器,other,1
+도메인: 그룹,other,1
+tier-1,other,1
+repo,other,1
+repository,other,1
+repro workspace,other,1
+repository maintenance,other,1
+request,feature,1
+经验,other,1
+request for comments,feature,1
+ticket-needs-improvement,feature,1
+resolved,other,1
+resource-management,other,1
+response-requested,feature,1
+更多,other,1
+우석,other,1
+release:v4.0.0,other,1
+released:v0.21.0,other,1
+우선순위: 높음,other,1
+reflection,other,1
+regression,bug,1
+tier: 2-major,other,1
+tier-3-blocked,other,1
+🌏infra,other,1
+regression-main,bug,1
+relay,other,1
+🌏 deploy,other,1
+release-12.5.0,other,1
+release-12.6.0,other,1
+release-7.30.0,other,1
+release-notes,other,1
+release-review,other,1
+release:v0.4.0-alpha,other,1
+진행중,other,1
+release:v0.6.0-alpha,other,1
+release:v3.1.0,other,1
+日报,other,1
+작업 완료,other,1
+responsive,other,1
+retour affectif amoureux,other,1
+新功能建议,other,1
+scope/medium,other,1
+✨ enhancement,feature,1
+scalability,other,1
+scheduled-competitive-analysis,other,1
+schema,other,1
+scope/application,other,1
+✅ одобрено ✅,other,1
+scope/contracts,other,1
+scope/domain,other,1
+scope/infrastructure,other,1
+scope/web,other,1
+safe-to-work,other,1
+scope: admin,other,1
+scope: backend,other,1
+⛔blocked,other,1
+scope: ci/cd,other,1
+scope: events,other,1
+scope: frontend,other,1
+scope: graphics,other,1
+⚙️ setting: 세팅,other,1
+scope: infrastructure,other,1
+✨ feat,feature,1
+s: untriaged,other,1
+retour affectif a distance,other,1
+代码人生,other,1
+🎨design,other,1
+threading,other,1
+review effort [1-5]: 3,other,1
+review-debt/refactor,other,1
+命令行工具,other,1
+分類:新機能・改良,other,1
+themes,other,1
+risk-management,other,1
+risk:high,other,1
+バグ,other,1
+rust-guard,other,1
+route:priority-high,other,1
+theme,other,1
+❌agent-failed,other,1
+type/experiment,other,1
+rss enhancement,feature,1
+✨ feature,feature,1
+ruby,other,1
+runmaestro.ai,other,1
+runtime,other,1
+🎨 design,other,1
+type-bug,bug,1
+title-extraction,other,1
+📝docs,documentation,1
+priority:critica,other,1
+🔫gambareload,other,1
+tool-execution,other,1
+🔨 refactor,other,1
+🔒️ security,other,1
+🔒 security,other,1
+priority:minor,other,1
+tool chain,other,1
+🔌 api,other,1
+triage: needs triage,other,1
+priority: middle,other,1
+tool,other,1
+📝 docs,documentation,1
+triaged by julesbot,agent_workflow,1
+📚 documentation,documentation,1
+tmux,other,1
+📖 documentation,documentation,1
+📌 chore,other,1
+📊 complexity:xlarge,other,1
+priority:p3-low,other,1
+🔬vln,other,1
+tracking,other,1
+product/pro,other,1
+🤖 agent:codegen,other,1
+transformation,other,1
+🧪 type:test,other,1
+priority/major,other,1
+triage/pending-triage,other,1
+trade,other,1
+🧊 нет c# 🧊,other,1
+🤞 good first issue 🤞,other,1
+🤖agent-execute,other,1
+priority/normal,other,1
+🟢 low priority,other,1
+🕒 low effort,other,1
+🟡 medium,other,1
+🛡️ gdpr compliance,other,1
+🛠️ chore,other,1
+priority/p3-low,other,1
+priority/should,other,1
+priority: 1 (normal),other,1
+🚨escalated,other,1
+🗺️planned,other,1
+🕓 medium effort,other,1
+product,other,1
+💻 refactor,other,1
+scope: prepare,other,1
+ready-for-agent,other,1
+🐛fix,other,1
+quick-win,other,1
+r: fixed,other,1
+react,other,1
+react-native,other,1
+read classification,other,1
+tuner,other,1
+🐛 type:bug,bug,1
+🐌blocked,other,1
+ready-for-implementation,other,1
+quality:security,other,1
+🏢 enterprise,other,1
+ready-for-review,other,1
+ready-to-implement,other,1
+🏞️ env,other,1
+real-time,other,1
+🏗️ status: in resolution,other,1
+rebrand,other,1
+🏆leaderboards,other,1
+red,other,1
+🐤 조효동,other,1
+quality-debt,other,1
+production,other,1
+proposal,other,1
+💪 enhancement,feature,1
+production-failed,other,1
+project,other,1
+💡feat,feature,1
+project-management,other,1
+projects,other,1
+triaged-framework,other,1
+prompt-templates,other,1
+💎gambarewards,other,1
+protocol,other,1
+🐳 docker,other,1
+tldr,other,1
+provider,other,1
+pwa,other,1
+trio-tnt,other,1
+👷🏼 infrastructure,other,1
+👷 ci/cd,other,1
+qa,other,1
+trio-wp,other,1
+qa:perf,other,1
+scope: portfolio,other,1
+⚙️ ci/cd,other,1
+scope: rendering,other,1
+status: backlog,other,1
+task-identify-issue-type-done,other,1
+task-distribution,other,1
+status/needs-info,other,1
+task-13,other,1
+status/ready,other,1
+priority/important-soon,other,1
+tanstack-query,other,1
+status: abandoned,other,1
+status: auto-triaged,other,1
+user-impact: request,feature,1
+v2.0.0,other,1
+status: blocked,other,1
+user-feedback,other,1
+user-experience,other,1
+status: needs approval,other,1
+user-agent,other,1
+user story,other,1
+usability,other,1
+status: on hold,other,1
+urgent,other,1
+v2-upgrade,other,1
+v2.1.0,other,1
+waiting on op,other,1
+vigilante:done,other,1
+state:implementation,other,1
+type: proposal,other,1
+state:running,other,1
+task:feature,feature,1
+state:verification,other,1
+states/ny,other,1
+vuejs,other,1
+visibility,other,1
+status,other,1
+status-01:created,other,1
+v2.3.0,other,1
+vigilante:automerge,other,1
+status-in-progress,other,1
+status-ready,other,1
+task:dogfooding,other,1
+status/decision-needed,other,1
+status/merged,other,1
+verified,other,1
+veille,other,1
+v3.1.0,other,1
+t: chore,other,1
+status: proposal,other,1
+status: review,other,1
+t-dev-inf,other,1
+type:infrastructure,other,1
+style-guide,other,1
+sub-task,other,1
+type:implementation,other,1
+success,other,1
+type:feature request,feature,1
+t-testeng,other,1
+supervised-finetuning (sft),other,1
+type:feat,feature,1
+supply-chain,other,1
+upstream-change,other,1
+svane,other,1
+type:docs,documentation,1
+type:customersupport,other,1
+syntheticdata,other,1
+type: test,other,1
+type: technical-debt,other,1
+type: support request,feature,1
+type: spike,other,1
+syntax-error,other,1
+type:mission,other,1
+type:process,other,1
+type:refactor,other,1
+type:research,other,1
+upcoming-release,other,1
+status: stale,other,1
+status: superseded,other,1
+status: triage,other,1
+status:approved,other,1
+unity-editor,other,1
+unit-testing,other,1
+status:in-progress,other,1
+status:in_depth_analysis,other,1
+unimplemented,other,1
+ui-ux,other,1
+type:test,other,1
+status:never-stale,other,1
+status:triage,other,1
+status:unassigned,other,1
+type: refactoring,other,1
+t: annoyance,other,1
+steering,other,1
+type:security,other,1
+waiting on human,other,1
+task:implement,other,1
+scope: text,other,1
+workstream/verb-porting,other,1
+service/chatbot,other,1
+techdebt,other,1
+severity-critical,other,1
+severity-high,other,1
+wpe-2.38,other,1
+wp-parsely,other,1
+severity/medium,other,1
+severity: low,other,1
+wos-phase-2,other,1
+severity:low,other,1
+service-api,other,1
+triage/missing-essentials,other,1
+workstream-rollup,other,1
+severity:p1,other,1
+workspace,other,1
+shield,other,1
+type/performance,other,1
+shipping,other,1
+size-m,other,1
+type/responsive,other,1
+service-badge,other,1
+server,other,1
+stale-issue-closed,other,1
+sdk,other,1
+⚙️ config,other,1
+sweepformula,agent_workflow,1
+scope: ui,other,1
+type/feature,feature,1
+scope:epic,other,1
+scope:medium,other,1
+scope:mono,other,1
+scripts,other,1
+type/feature-request,feature,1
+search,other,1
+xauusd,other,1
+secrets-management,other,1
+☕drift,other,1
+приоритет: низкий,other,1
+tendermint,other,1
+semver:patch,other,1
+type/improvement,feature,1
+seo,other,1
+zetaclient,other,1
+y-combinator,other,1
+work-unit,other,1
+work-type:enhancement,feature,1
+work-package,other,1
+sprint-1,other,1
+spec:communication,other,1
+spec:task-workflow,other,1
+specwright-backlog,other,1
+weekly report,other,1
+sprint 5,other,1
+team-design-system,other,1
+type: feature request,feature,1
+sprint 6,other,1
+type: performance,other,1
+sprint-3,other,1
+size: large,other,1
+sprint-4,other,1
+sprint-planning,other,1
+wcag-a,other,1
+wave: 5,other,1
+wave-b,other,1
+want new agent,other,1
+waiting-on-maintainers,other,1
+waiting on response from nodesource,other,1
+stale-issue,other,1
+spec:budget,other,1
+spec:agent-system,other,1
+spec process,other,1
+source:jules,agent_workflow,1
+size: medium,other,1
+wont-implement,other,1
+withfig,other,1
+tech,other,1
+size:f-lite,other,1
+widget/settings,other,1
+size:medium,other,1
+size:small,other,1
+size:xl,other,1
+skill: devops,other,1
+widget/pro/nav-menu*,other,1
+type: chore,other,1
+type: code hygiene,other,1
+smoke-claude,agent_workflow,1
+smoke-copilot,agent_workflow,1
+team-framework,other,1
+softwareengineering,other,1
+solved,other,1
+weekly-report,other,1
+*duplicate,other,1
+no-auto-stale,other,1
+priority/critical,other,1
+compaction,other,1
+component/optimized-markup,other,1
+complexity:simple,other,1
+complexity-minimal,other,1
+complete-verify,other,1
+complete,other,1
+comparator,other,1
+comp:sheets,other,1
+containers,other,1
+comp-jans-pycloudlib,other,1
+communityreported,other,1
+community-request,feature,1
+commit,other,1
+codeql-alert-50,other,1
+codeql-alert-39,other,1
+component: url-bar,other,1
+component: webapp,other,1
+component:api,other,1
+component:auth,other,1
+component:display,other,1
+component:documentation,documentation,1
+component:git,other,1
+component:notification,other,1
+component:python sdk,other,1
+component:server,other,1
+component:web,other,1
+config,other,1
+confirmed,other,1
+connectors/source/facebook-marketing,other,1
+connectors/source/intercom,other,1
+constitutional:identity-preservation,other,1
+construction-system,other,1
+codeql-alert-29,other,1
+code/enhancement,feature,1
+code generation,other,1
+catfight,other,1
+cat: code-quality,other,1
+cat:engineering,other,1
+cat:harness,other,1
+cat:tooling,other,1
+category,other,1
+category-infrastructure,other,1
+category/governance,other,1
+category/release,other,1
+category/security,other,1
+category/testing,other,1
+category:async,other,1
+category:blocks,other,1
+category:bottleneck,other,1
+category:other,other,1
+cc03,other,1
+closed - can no longer reproduce,other,1
+cgi,other,1
+chain:bitcoin,other,1
+champagne-festival,other,1
+champagne-festival-api,other,1
+champagne-festival-end-to-end,other,1
+changelog,other,1
+chore 🕸️,other,1
+ci-fix,other,1
+classification,other,1
+claude interface,agent_workflow,1
+claude-code-waiting,agent_workflow,1
+claude-only,agent_workflow,1
+claude-ready,agent_workflow,1
+clean-architecture,other,1
+consumer,other,1
+contribution,other,1
+event-details,other,1
+domain:onboarding,other,1
+effort 3 easy,other,1
+efficiency,other,1
+editor,other,1
+draw-steel,other,1
+dos: gaming,other,1
+done,other,1
+domain: config,other,1
+cool,other,1
+domain/quality,other,1
+domain/marketing,other,1
+domain → infrastructure,other,1
+difficulty: moderate,other,1
+difficulty: hard,other,1
+difficulty: easy,other,1
+effort-small,other,1
+effort/large,other,1
+effort/medium,other,1
+effort/small,other,1
+effort/xl,other,1
+effort:high,other,1
+effort:medium,other,1
+element/container,other,1
+emulation,other,1
+engine,other,1
+environment,other,1
+epic-b,other,1
+epic:phase-4,other,1
+epic:rust-migration,other,1
+epic:settings-editor,other,1
+escargot,other,1
+eslint,other,1
+devxp,other,1
+devin:triaged,agent_workflow,1
+devin:small,agent_workflow,1
+dart,other,1
+copilot-session,agent_workflow,1
+coverage,other,1
+crash-safety,bug,1
+critical-path,other,1
+crypto,other,1
+custom,other,1
+customization,other,1
+d3d6,other,1
+daemon,other,1
+daily-digest,other,1
+daily-learning,other,1
+daily-report,other,1
+daily-status,other,1
+daily-summary,other,1
+data quality,other,1
+devin:pr-opened,agent_workflow,1
+data-integrity,other,1
+data-race,other,1
+database,other,1
+debt,other,1
+decision,other,1
+delayed-gratification,other,1
+delivered,other,1
+design,other,1
+design doc,documentation,1
+dev,other,1
+dev qa,other,1
+development,other,1
+devin:approved,agent_workflow,1
+devin:done,agent_workflow,1
+canvas,other,1
+caa-swe-agent,agent_workflow,1
+c: contributor-productivity,other,1
+aider,agent_workflow,1
+answered,other,1
+angular,other,1
+alpha,other,1
+all versions,other,1
+alexapy,other,1
+alert,other,1
+aiagents,other,1
+c: chore,other,1
+ai:created,other,1
+ai-news,other,1
+ai-agent-config,other,1
+ai sdk,other,1
+agents-md,other,1
+agent:ux,other,1
+api-deprecations,other,1
+api: crashlytics,bug,1
+api: mcp,other,1
+app,other,1
+app request,feature,1
+app-request,feature,1
+arbor,other,1
+area-installation,other,1
+area-qa,other,1
+area-skills,other,1
+area/ai-assistant,other,1
+area/api,other,1
+area/auth,other,1
+area/caching,other,1
+area/ci,other,1
+area/client,other,1
+area/config,other,1
+agent-support,other,1
+agent-security,other,1
+agent-roadmap,other,1
+a-rendering,other,1
+2,other,1
+2025-12,other,1
+2026-2,other,1
+25-feedback,other,1
+29-feedback,other,1
+2h,other,1
+3rd party game,other,1
+6/approved,other,1
+:devx,other,1
+:enhancement,feature,1
+:gem: enhancement,feature,1
+:octocat: github-actions,other,1
+:scroll:,other,1
+a-bug,bug,1
+a: devops,other,1
+agent-qa,other,1
+a: in progress,other,1
+action,other,1
+actioncable,other,1
+admin-client,other,1
+admin/webmaster,other,1
+adt-cli,other,1
+agent simulation,other,1
+agent-analyst,other,1
+agent-architect,other,1
+agent-config,other,1
+agent-database,other,1
+agent-fixable,other,1
+agent-generated,other,1
+agent-kit,other,1
+area/configuration,other,1
+area/devops,other,1
+area/docs,documentation,1
+beginner tasks,other,1
+area:tools,other,1
+area:vue-migration,other,1
+area:workflow,other,1
+assign-to-jules,agent_workflow,1
+auto-approved,other,1
+auto-assigned,other,1
+auto-closed-stale,other,1
+auto-plan,other,1
+auto-ready,other,1
+automated-tests,other,1
+autonomy,other,1
+available,other,1
+b-obsinst,other,1
+bedrock-runtime,other,1
+blast-radius-small,other,1
+area:services,other,1
+blocks/patterns/templates,other,1
+bot:fix,other,1
+bounty: 4 bnut,other,1
+breaking-change,other,1
+broken-markdown-links,bug,1
+bucket 🪣,other,1
+bug - possible,bug,1
+bug-unconfirmed,bug,1
+bug:confirmed,bug,1
+bug?,bug,1
+build-failure,other,1
+build-problem,other,1
+bundler,other,1
+c: bolt-sidecar,other,1
+area:testing,other,1
+area:profiles,other,1
+area/error-mitigation,other,1
+area: docs,documentation,1
+area/extension,other,1
+area/frontend,other,1
+area/infra,other,1
+area/llm-agent,other,1
+area/performance,other,1
+area/server,other,1
+area/settings,other,1
+area/streaming-transcriber,other,1
+area/studio,other,1
+area/typescript,other,1
+area: assistant,other,1
+area: builds,other,1
+area: core,other,1
+area: devops,other,1
+area: gm-tools,other,1
+area:poker-backend,other,1
+area: internal tooling,other,1
+area: process,other,1
+area: ui,other,1
+area:analytics,other,1
+area:bash,other,1
+area:configuration,other,1
+area:core-flows,other,1
+area:data,other,1
+area:database,other,1
+area:db,other,1
+area:model,other,1
+area:nodes,other,1
+area:orchestrator,other,1
+area:permissions,other,1
+ethereum-core,other,1
+evidence-needed: traces-required,other,1
+priority/4/normal,other,1
+next,other,1
+nlp,other,1
+nixopus-documentation,documentation,1
+nix-witchcraft,other,1
+nix,other,1
+nightly-qa,other,1
+next in line,other,1
+new-data-source,other,1
+os: mac,other,1
+new icon,other,1
+new feature,feature,1
+new bug,bug,1
+neurips,other,1
+network-sweep,agent_workflow,1
+neovim/vim,other,1
+.net,other,1
+no-go,other,1
+noninteractive,other,1
+not-approved,other,1
+not-for-bot,other,1
+nvim,other,1
+observability,other,1
+observer,other,1
+odboost,other,1
+oh-planned,other,1
+oncall,other,1
+one-line notes,other,1
+op_cat: eltwise,other,1
+op_cat: tm,other,1
+orchestration-v2,other,1
+orchestrator,other,1
+orchestrator:enabled,other,1
+needs:test,other,1
+needs: attention,other,1
+needs-verification,other,1
+mpd,other,1
+milestone-3,other,1
+milestone:critical-bugs,bug,1
+ml,other,1
+ml-tagging,other,1
+mobile,other,1
+mod*,other,1
+mod/b*,other,1
+module: craftercms,other,1
+module:common,other,1
+module:engine,other,1
+moe,other,1
+monthly-report,other,1
+more data needed,other,1
+more-info-needed,other,1
+mpl,other,1
+needs-swe,other,1
+must-fix,other,1
+mvcc,other,1
+mysql,other,1
+n: adguard for ios,other,1
+need more info,other,1
+needs investigate,other,1
+needs review,other,1
+needs triage,other,1
+needs-actor,other,1
+needs-author-response,other,1
+needs-design,other,1
+needs-human,other,1
+needs-priority,other,1
+needs-revision,other,1
+orchestrator:run,other,1
+oss,other,1
+experimental,other,1
+platform:vscode,other,1
+post it to the support forum,other,1
+polaris-react,other,1
+pod: build,other,1
+poc,other,1
+playwright,other,1
+platform:web,other,1
+platform:steam-deck,other,1
+owner-console,other,1
+platform: macos,other,1
+pinned,other,1
+php,other,1
+philosophy,other,1
+phase:3,other,1
+phase:2-adapters,other,1
+post-ship,other,1
+posttraining,other,1
+potential bug,bug,1
+powers,other,1
+powershell,other,1
+powerwall,other,1
+pr submitted,other,1
+pr/refactor,other,1
+predeploy,other,1
+preset-generation,other,1
+preview,other,1
+prio:medium,other,1
+priority 4 useful,other,1
+priority middle,other,1
+priority-4-low,other,1
+priority-p1,other,1
+priority-p2,other,1
+phase: 0.8-tools,other,1
+phase3-prep,other,1
+phase/done,other,1
+pending-maintainer-response,other,1
+p0-blocker,other,1
+p0-incident,other,1
+p1 - high,other,1
+p1-critical,other,1
+p1-important,other,1
+p11-wave-2,other,1
+p2: high,other,1
+p2: medium,other,1
+p3: low,other,1
+packaging,other,1
+parallelizable,other,1
+parity,other,1
+pattern-detection,other,1
+pending triage,other,1
+pending-response,other,1
+phase-7,other,1
+pending-triage,other,1
+perf:memory,other,1
+performance 🚀,other,1
+permission denied,other,1
+persona: graduate-student,other,1
+persona: instructor,other,1
+persona: solo-researcher,other,1
+phantom-sweep,agent_workflow,1
+phase 2: core systems,other,1
+phase 3: community,other,1
+phase-11,other,1
+phase-2.5,other,1
+phase-2.5-d,other,1
+phase-4,other,1
+midium,other,1
+metrics,other,1
+meta,other,1
+gui,other,1
+hash-management,other,1
+hard,other,1
+handler,other,1
+hacktoberfest2025,other,1
+hacker-news-monthly,other,1
+hacker-news-daily,other,1
+green-software,other,1
+merged,other,1
+gpu,other,1
+good-first-issue,other,1
+good first issue 🎬,other,1
+godot-ready,other,1
+gnosisvpn.js,other,1
+github-request,feature,1
+high impact,other,1
+high priority,other,1
+hiromishikata:task:development,other,1
+hivemoot:voting,other,1
+hold,other,1
+housing,other,1
+hub-mirror,other,1
+hyd-review,other,1
+i18n,other,1
+ide:vscode,other,1
+ideas,other,1
+impact:high,other,1
+impact:medium,other,1
+implement,other,1
+implemented,other,1
+in progress,other,1
+in-progress,other,1
+github-improvement,feature,1
+gitclaw:research,other,1
+gitauto,other,1
+fix-in-progress,other,1
+external bug,bug,1
+extraction,other,1
+factorization,other,1
+faire revenir l'être aimé,other,1
+false-positive,other,1
+fb-marketplace,other,1
+fdm-app,other,1
+feature: authentication,feature,1
+feature: dav,feature,1
+feature: filepicker,feature,1
+feature: previews and thumbnails,feature,1
+fees,other,1
+figma,other,1
+file-management,other,1
+fix-me,other,1
+gha-issue,other,1
+focus: woocommerce,other,1
+foundation,other,1
+framework,other,1
+friction,other,1
+front,other,1
+future,other,1
+future-vision,other,1
+fuzzer,other,1
+game design,other,1
+genai-training-transcript-app,other,1
+generated-by-kelos,other,1
+geometry,other,1
+gh-issue,other,1
+gh-pr,other,1
+in-progress-by-claude,agent_workflow,1
+in-review,other,1
+individuals,other,1
+low prio,other,1
+later,other,1
+lattice,other,1
+lifecycle/frozen,other,1
+lifecycle/rotten,other,1
+linter,other,1
+linux-port,other,1
+llm translation,other,1
+llm-task,other,1
+llm-training,other,1
+llm_output_parsing,other,1
+logs,other,1
+loom:architect,other,1
+loom:blocked,other,1
+loom:urgent,other,1
+macos,other,1
+languagemodel,other,1
+magie blanche pour un retour d'affection,other,1
+main issue,other,1
+maintainance,other,1
+maintenance,other,1
+marabout africain,other,1
+marabout africain ile-de-france,other,1
+marabout africain sérieux paris,other,1
+maturity: shaped,other,1
+mcp-server,other,1
+medium retour affectif,other,1
+medium-priority,other,1
+meilleur marabout de france,other,1
+memory,other,1
+memory-model,other,1
+large-task,other,1
+ktn-linter,other,1
+input:readcom,other,1
+jules-task,agent_workflow,1
+inst/cn-thu,other,1
+inst/us-stanford,other,1
+inst/us-ucb,other,1
+intelligence,other,1
+invalid-issue-template,other,1
+investigation required,other,1
+isolation-testing,other,1
+issue,other,1
+issue-duplicate,other,1
+issue-invalid,other,1
+ivy-news,other,1
+java-17,other,1
+je cherche un bon marabout,other,1
+jsc,other,1
+katana,other,1
+known problem,other,1
+kind-bug,bug,1
+kind-feature,feature,1
+kind/api,other,1
+kind/cicd,other,1
+kind/cleanup,other,1
+kind/dependencies,other,1
+kind/documentation,documentation,1
+kind/feat,feature,1
+kind/question,other,1
+kind/tech,other,1
+kind:bug,bug,1
+kind:enhancement,feature,1
+kirigami,other,1
+knowledge-graph,other,1
+🧹 needs triage,other,1

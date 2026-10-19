@@ -1,0 +1,6 @@
+test,n,chi2,df,p_perm,cramers_v,df_star,effect,pct_cells_expected_lt5,min_expected,p_holm
+agent × State (open vs closed),4946,214.7555,10,0.0001,0.2084,1,small,0.0,16.614,0.0005
+agent × Closure reason (closed issues),3269,73.377,20,0.0003,0.1059,2,small,36.3636,0.2845,0.0005
+agent × Labelled (yes/no),4946,526.15,10,0.0001,0.3262,1,medium,0.0,24.2622,0.0005
+agent × Language group,4946,424.7231,20,0.0001,0.2072,2,small,21.2121,0.4755,0.0005
+agent × Attribution signal,4946,4315.7317,30,0.0001,0.5393,3,large,22.7273,1.3275,0.0005

@@ -1,0 +1,12 @@
+agent_type,share_same_topic
+Aider,0.15625
+Amazon_Q,0.218182
+Claude_Code,0.449568
+CodeRabbit,0.366747
+Devin,0.336232
+Gemini_Code_Assist,0.433333
+Jules,0.272727
+Kiro,0.347826
+PR_Agent,0.352941
+SWE_agent,0.40613
+Sweep,0.290598

@@ -1,0 +1,3 @@
+comparison,mean_jaccard_top10,topics_reproduced_J_ge_0.5,ARI_assignments
+seed 42 vs 43,0.963636,5,0.926355
+seed 42 vs 44,0.779021,5,0.781443

@@ -1,0 +1,6 @@
+topic,label,stability,interpreted,n_docs,n_closed,pct_closed,median_ttc_closed_h,km_median_h
+5,"Build, CI and repository workflow",partly reproduced,False,871,650,74.6269,38.4807,247.697
+1,"Testing, review and quality follow-ups",reproduced,True,804,564,70.1493,49.7118,381.465
+2,Topic 2,not reproduced,False,522,341,65.3257,24.825,453.154
+3,"LLM, agent and model features",partly reproduced,False,479,311,64.9269,84.7267,1202.14
+4,Code-level fixes and refactoring,reproduced,True,1140,725,63.5965,157.134,1993.97

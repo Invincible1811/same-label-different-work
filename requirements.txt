@@ -1,0 +1,30 @@
+# Exact versions that produced every result in this repository (Python 3.11.8).
+# Install into a fresh environment:  python -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+# RQ3 also needs the WordNet data:   python -m nltk.downloader wordnet omw-1.4
+pandas==2.1.1
+numpy==1.26.2
+scipy==1.11.4
+statsmodels==0.14.0
+matplotlib==3.8.4
+scikit-learn==1.2.2
+gensim==4.3.3
+nltk==3.8.1
+scikit-posthocs==0.17.1
+lifelines==0.30.3
+jinja2==3.1.2
+# RQ3 embeddings and BERTopic (src/08_rq3_embed.py, src/09_rq3_bertopic.py); the embedding model
+# sentence-transformers/all-MiniLM-L6-v2
+# at revision 1110a243fdf4706b3f48f1d95db1a4f5529b4d41 is downloaded on first run (~90 MB)
+bertopic==0.17.4
+sentence-transformers==6.1.0
+torch==2.14.1
+transformers==5.20.1
+huggingface_hub==1.33.0
+tokenizers==0.23.3
+safetensors==0.8.0
+umap-learn==0.5.7
+pynndescent==0.6.0
+hdbscan==0.8.40
+datasets==4.0.0
+pyarrow==19.0.1
+openpyxl==3.0.10

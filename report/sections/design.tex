@@ -1,0 +1,42 @@
+The researcher designed the study with the Goal--Question--Metric approach~\cite{basili1994gqm}. Its goal is to \emph{analyse} GitHub issues attributed to AI coding agents \emph{for the purpose of} understanding how these issues differ between agents, \emph{with respect to} their characteristics, their resolution time and their topics, \emph{from the viewpoint of} open-source maintainers and software-engineering researchers, \emph{in the context of} \NIssues{} public issues from \NRepos{} repositories attributed to \NAgents{} agents. Table~\ref{tab:gqm} refines this goal into the three research questions and 21 metrics; each metric is either atomic (A), read directly from the data, or composite (C), derived from other values.
+
+\begin{table}[t]
+\caption{Research questions and metrics (GQM). A = atomic, C = composite}\label{tab:gqm}
+\centering\footnotesize
+\begin{tabular}{@{}l p{0.72\linewidth} c@{}}
+\toprule
+ID & Metric & Type\\
+\midrule
+\multicolumn{3}{@{}p{0.95\linewidth}}{\textbf{RQ1} How do issues differ in volume, state and labelling?}\\
+M1.1 & Issues per agent & A\\
+M1.2 & Repositories per agent; issues per repository; Gini & C\\
+M1.3 & Share of issues closed, with Wilson 95\% CI & C\\
+M1.4 & Closure reason: completed, not planned, duplicate & C\\
+M1.5 & Share of issues with at least one label & C\\
+M1.6 & Labels per issue & A\\
+M1.7 & Label categories; five most frequent labels & C\\
+M1.8 & \(\chi^2\) and Cram\'er's V: agent \(\times\) state and agent \(\times\) labelled & C\\
+M1.9 & Language group mix; \(\chi^2\) and V & C\\
+M1.10 & Attribution signal mix; \(\chi^2\) and V & C\\
+\midrule
+\multicolumn{3}{@{}p{0.95\linewidth}}{\textbf{RQ2} Does time-to-close (TTC) differ across agents, and by how much?}\\
+M2.1 & TTC in hours, from the GitHub API timestamps & A\\
+M2.2 & Median with exact 95\% CI, IQR, mean, SD & C\\
+M2.3 & Normality: Shapiro--Wilk, skewness, Q--Q plots & C\\
+M2.4 & Kruskal--Wallis test and \(\varepsilon^2\) & C\\
+M2.5 & Dunn's test (Holm) and Cliff's \(\delta\) per pair of agents & C\\
+M2.6 & Kaplan--Meier median with open issues censored; log-rank test & C\\
+M2.7 & TTC by closure reason & C\\
+\midrule
+\multicolumn{3}{@{}p{0.95\linewidth}}{\textbf{RQ3} Which topics do the issues raise, and does that differ by agent?}\\
+M3.1 & Topic quality: C\textsubscript{v} coherence and reproducibility across seeds & C\\
+M3.2 & Top words and hand-assigned label per topic & C\\
+M3.3 & Topic share per agent, with bootstrap 95\% CI & C\\
+M3.4 & \(\chi^2\) and Cram\'er's V: agent \(\times\) dominant topic & C\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Statistical analysis.} The data are counts and heavily skewed durations, so all tests used are free of normality assumptions, and every test is reported with an effect size. Tables of counts are tested with Pearson's \(\chi^2\) test, with the p-value computed by permutation (10{,}000 permutations) because up to \MaxPctSparse\% of the expected cell counts are below five, which makes the usual approximation unreliable. Cram\'er's V~\cite{cramer1946methods} measures the strength of an association and is judged with Cohen's benchmarks, adjusted for the degrees of freedom of the table~\cite{cohen1988power}; adjusted standardised residuals show which cells drive an association. Proportions carry Wilson intervals~\cite{wilson1927probable}. Time-to-close is compared with the Kruskal--Wallis test~\cite{kruskal1952ranks} and its effect size \(\varepsilon^2\)~\cite{tomczak2014effect}, followed by Dunn's test~\cite{dunn1964multiple} and Cliff's \(\delta\)~\cite{cliff1993dominance}, interpreted with the thresholds of Romano et al.~\cite{romano2006appropriate}. Medians carry exact, distribution-free confidence intervals from order statistics~\cite{conover1999practical}. Because many issues are still open, time-to-close is also estimated with the Kaplan--Meier estimator~\cite{kaplan1958nonparametric}, which counts an open issue as censored rather than ignoring it, and agents are compared with the log-rank test~\cite{mantel1966logrank}. Each family of tests is corrected with Holm's method~\cite{holm1979simple}. This is the same family of tests the closest prior work uses for agent comparisons (\(\chi^2\) with Cram\'er's V and Cliff's \(\delta\)~\cite{selvanayagam2026aitoai}; Kruskal--Wallis with Dunn's test and \(\varepsilon^2\)~\cite{pham2026alignment}), extended with normality checks, multiple-comparison correction and censoring. Statistical claims are made only for the eleven agents with at least 30 closed issues.
+
+\textbf{Sensitivity analyses.} Because the agent attribution is heuristic, \texttt{agent\_type} is kept as given in the main analysis, as the study brief requires, and the key tests are repeated on four subsets: issues created after the agent's public release (S1); human-authored issues only (S2); the high-precision subset recommended by the CodAGE documentation, which drops automation echoes and repositories named after the agent (S3); and one value per agent--repository pair, so that busy repositories cannot dominate (S4).

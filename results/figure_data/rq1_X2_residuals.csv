@@ -1,0 +1,111 @@
+panel,agent,category,adj_residual
+Closure reason (closed issues),CodeRabbit,completed,-1.011
+Closure reason (closed issues),CodeRabbit,duplicate,-0.377
+Closure reason (closed issues),CodeRabbit,not_planned,1.162
+Closure reason (closed issues),Claude_Code,completed,4.427
+Closure reason (closed issues),Claude_Code,duplicate,-1.139
+Closure reason (closed issues),Claude_Code,not_planned,-4.236
+Closure reason (closed issues),Sweep,completed,1.784
+Closure reason (closed issues),Sweep,duplicate,-1.237
+Closure reason (closed issues),Sweep,not_planned,-1.468
+Closure reason (closed issues),Devin,completed,-4.076
+Closure reason (closed issues),Devin,duplicate,0.049
+Closure reason (closed issues),Devin,not_planned,4.207
+Closure reason (closed issues),SWE_agent,completed,-1.275
+Closure reason (closed issues),SWE_agent,duplicate,-0.897
+Closure reason (closed issues),SWE_agent,not_planned,1.595
+Closure reason (closed issues),Gemini_Code_Assist,completed,-2.468
+Closure reason (closed issues),Gemini_Code_Assist,duplicate,5.29
+Closure reason (closed issues),Gemini_Code_Assist,not_planned,0.936
+Closure reason (closed issues),Amazon_Q,completed,-0.604
+Closure reason (closed issues),Amazon_Q,duplicate,-0.615
+Closure reason (closed issues),Amazon_Q,not_planned,0.813
+Closure reason (closed issues),Aider,completed,1.148
+Closure reason (closed issues),Aider,duplicate,-0.661
+Closure reason (closed issues),Aider,not_planned,-0.986
+Closure reason (closed issues),Kiro,completed,0.285
+Closure reason (closed issues),Kiro,duplicate,0.864
+Closure reason (closed issues),Kiro,not_planned,-0.56
+Closure reason (closed issues),PR_Agent,completed,-0.744
+Closure reason (closed issues),PR_Agent,duplicate,1.354
+Closure reason (closed issues),PR_Agent,not_planned,0.356
+Closure reason (closed issues),Jules,completed,1.319
+Closure reason (closed issues),Jules,duplicate,-0.607
+Closure reason (closed issues),Jules,not_planned,-1.181
+Language group,CodeRabbit,english,4.705
+Language group,CodeRabbit,latin_non_english,-3.816
+Language group,CodeRabbit,non_latin,-3.761
+Language group,Claude_Code,english,-4.838
+Language group,Claude_Code,latin_non_english,1.329
+Language group,Claude_Code,non_latin,4.599
+Language group,Sweep,english,10.128
+Language group,Sweep,latin_non_english,-1.532
+Language group,Sweep,non_latin,-9.98
+Language group,Devin,english,-12.933
+Language group,Devin,latin_non_english,-0.103
+Language group,Devin,non_latin,13.325
+Language group,SWE_agent,english,4.18
+Language group,SWE_agent,latin_non_english,-0.599
+Language group,SWE_agent,non_latin,-4.128
+Language group,Gemini_Code_Assist,english,-8.266
+Language group,Gemini_Code_Assist,latin_non_english,6.266
+Language group,Gemini_Code_Assist,non_latin,6.731
+Language group,Amazon_Q,english,2.209
+Language group,Amazon_Q,latin_non_english,-1.035
+Language group,Amazon_Q,non_latin,-1.979
+Language group,Aider,english,2.466
+Language group,Aider,latin_non_english,1.669
+Language group,Aider,non_latin,-3.006
+Language group,Kiro,english,1.229
+Language group,Kiro,latin_non_english,0.503
+Language group,Kiro,non_latin,-1.406
+Language group,PR_Agent,english,1.238
+Language group,PR_Agent,latin_non_english,3.411
+Language group,PR_Agent,non_latin,-2.235
+Language group,Jules,english,0.145
+Language group,Jules,latin_non_english,2.233
+Language group,Jules,non_latin,-0.779
+Attribution signal,CodeRabbit,agent_own_bot,48.45
+Attribution signal,CodeRabbit,automation_echo,-8.539
+Attribution signal,CodeRabbit,other_signal,-40.786
+Attribution signal,CodeRabbit,self_referential_repo,-11.271
+Attribution signal,Claude_Code,agent_own_bot,-27.319
+Attribution signal,Claude_Code,automation_echo,3.273
+Attribution signal,Claude_Code,other_signal,27.015
+Attribution signal,Claude_Code,self_referential_repo,-2.812
+Attribution signal,Sweep,agent_own_bot,-24.049
+Attribution signal,Sweep,automation_echo,-4.198
+Attribution signal,Sweep,other_signal,24.898
+Attribution signal,Sweep,self_referential_repo,0.606
+Attribution signal,Devin,agent_own_bot,19.557
+Attribution signal,Devin,automation_echo,-1.287
+Attribution signal,Devin,other_signal,-17.488
+Attribution signal,Devin,self_referential_repo,-3.706
+Attribution signal,SWE_agent,agent_own_bot,-15.537
+Attribution signal,SWE_agent,automation_echo,7.103
+Attribution signal,SWE_agent,other_signal,6.678
+Attribution signal,SWE_agent,self_referential_repo,16.608
+Attribution signal,Gemini_Code_Assist,agent_own_bot,-14.004
+Attribution signal,Gemini_Code_Assist,automation_echo,2.428
+Attribution signal,Gemini_Code_Assist,other_signal,10.564
+Attribution signal,Gemini_Code_Assist,self_referential_repo,6.484
+Attribution signal,Amazon_Q,agent_own_bot,-8.95
+Attribution signal,Amazon_Q,automation_echo,19.927
+Attribution signal,Amazon_Q,other_signal,1.999
+Attribution signal,Amazon_Q,self_referential_repo,0.974
+Attribution signal,Aider,agent_own_bot,-7.106
+Attribution signal,Aider,automation_echo,-0.634
+Attribution signal,Aider,other_signal,5.421
+Attribution signal,Aider,self_referential_repo,4.714
+Attribution signal,Kiro,agent_own_bot,-6.836
+Attribution signal,Kiro,automation_echo,-0.552
+Attribution signal,Kiro,other_signal,5.01
+Attribution signal,Kiro,self_referential_repo,5.022
+Attribution signal,PR_Agent,agent_own_bot,-6.382
+Attribution signal,PR_Agent,automation_echo,-1.245
+Attribution signal,PR_Agent,other_signal,4.298
+Attribution signal,PR_Agent,self_referential_repo,6.294
+Attribution signal,Jules,agent_own_bot,-6.021
+Attribution signal,Jules,automation_echo,-1.174
+Attribution signal,Jules,other_signal,5.72
+Attribution signal,Jules,self_referential_repo,1.593

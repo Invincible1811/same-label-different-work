@@ -1,0 +1,32 @@
+sheet,measure_id,description,k,n,pct,ci_lo,ci_hi
+V1,V1_correct,"attribution correct (Y of Y+N), all agents",85,99,85.8586,77.6528,91.3855
+V1,V1_undecidable,cannot tell (U) of all answered,0,99,0,0,3.73532
+V1,V1_correct_Aider,"attribution correct, Aider",5,9,55.5556,26.6651,81.1221
+V1,V1_correct_Amazon_Q,"attribution correct, Amazon_Q",8,9,88.8889,56.5,98.0109
+V1,V1_correct_Claude_Code,"attribution correct, Claude_Code",9,9,100,70.0855,100
+V1,V1_correct_CodeRabbit,"attribution correct, CodeRabbit",6,9,66.6667,35.4202,87.9416
+V1,V1_correct_Devin,"attribution correct, Devin",9,9,100,70.0855,100
+V1,V1_correct_Gemini_Code_Assist,"attribution correct, Gemini_Code_Assist",8,9,88.8889,56.5,98.0109
+V1,V1_correct_Jules,"attribution correct, Jules",8,9,88.8889,56.5,98.0109
+V1,V1_correct_Kiro,"attribution correct, Kiro",9,9,100,70.0855,100
+V1,V1_correct_PR_Agent,"attribution correct, PR_Agent",8,9,88.8889,56.5,98.0109
+V1,V1_correct_SWE_agent,"attribution correct, SWE_agent",8,9,88.8889,56.5,98.0109
+V1,V1_correct_Sweep,"attribution correct, Sweep",7,9,77.7778,45.2589,93.6775
+V1,V1_correct_signal_agent_own_bot,"attribution correct, signal agent_own_bot",10,10,100,72.2467,100
+V1,V1_correct_signal_automation_echo,"attribution correct, signal automation_echo",5,7,71.4286,35.8934,91.7781
+V1,V1_correct_signal_other_signal,"attribution correct, signal other_signal",59,70,84.2857,74.0118,90.9924
+V1,V1_correct_signal_self_referential_repo,"attribution correct, signal self_referential_repo",11,12,91.6667,64.612,98.5135
+V1,V1_role_W,role W (wrote) among linked issues,25,85,29.4118,20.7855,39.8185
+V1,V1_role_T,role T (triggered) among linked issues,17,85,20,12.879,29.7154
+V1,V1_role_M,role M (mentioned only) among linked issues,43,85,50.5882,40.1664,60.9592
+V1,V1_role_O,role O (other) among linked issues,0,85,0,0,4.32395
+V1,V1_ownbot_precision,own-bot flag: issue written by the agent (role W),10,10,100,72.2467,100
+V1,V1_ownbot_recall,agent-written issues (role W) caught by the own-bot flag,10,25,40,23.4033,59.2605
+V1,V1_wrong_other_signal,wrong attributions that come from other (text/branch) signals,11,14,78.5714,52.4108,92.4286
+V2,V2_fit,"label fits, all labelled fine topics",12,20,60,38.6582,78.1193
+V2,V2_fit_T1,"label fits, fine topic 1",4,5,80,37.5535,96.3776
+V2,V2_fit_T3,"label fits, fine topic 3",2,5,40,11.7621,76.9276
+V2,V2_fit_T4,"label fits, fine topic 4",5,5,100,56.5518,100
+V2,V2_fit_T5,"label fits, fine topic 5",1,5,20,3.62241,62.4465
+V3,V3_nonEN_correct,flagged non-English that is not English,19,20,95,76.3869,99.1119
+V3,V3_EN_correct,flagged English that is English,20,20,100,83.8875,100

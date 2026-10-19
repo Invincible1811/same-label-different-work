@@ -1,0 +1,101 @@
+path,produced_by,description,rows,columns,redistributed,sha256
+data/processed/issues_clean.csv,src/01_clean.py,One row per retained issue with derived fields and flags,4952,63,False,f5a2e4cc2ddb9219938ac936b1b7705ea78995357f5776e1f06ad6996e9cccee
+data/processed/labels_clean.csv,src/01_clean.py,One row per retained issue-label pair with its category (D9),4728,4,False,cc93d1f463e0e78328a983863715ccc61f4b042f167510e271836d4f9da6781f
+data/processed/rq3_bertopic_doc_topics.csv,src/09_rq3_bertopic.py,BERTopic topic of every RQ3 document (reference seed),3816,3,False,9dfeac3f378dbf164032cf9c422ec723195300914dcb21b2db5f6e5c4e4b252f
+data/processed/rq3_corpus.csv,src/04_rq3_preprocess.py,"RQ3 modelled documents: issue, agent, tokens and cleaned prose",3816,5,False,60b5ef388825b6f4d46fde8f68a8a443319f78f48ead326576c0e97b3793bf45
+data/processed/rq3_doc_topics.csv,src/07_rq3_topics.py,RQ3 document-topic proportions (fine view) and dominant topics at both levels,3816,11,False,7c324c02551795b3873126a483c3a138ff4dd9763fd3043c16ae6b2b9938c173
+data/processed/rq3_embeddings_chunked.npy,src/08_rq3_embed.py,Sentence embeddings of the RQ3 documents (chunked mean pooling),,,False,acb6e57ebdbd365c135c69a94973a2fecdbb41bbfcf1bbfbe0ceba26b498d295
+data/processed/rq3_ensemble_seed42.model,src/06_rq3_ensemble.py,"Ensemble LDA, seed 42 (final model; gensim format)",,,False,f686e896591b4097cb750de3d376ef2b08f878e31f201a5616dc45c69a17e0f7
+data/processed/rq3_ensemble_seed7.model,src/06_rq3_ensemble.py,"Ensemble LDA, seed 7 (independent replicate; gensim format)",,,False,0ca7f57c657e6ee461ef79e494ba862c08b57b2b069b2d94682a9614f01d0032
+results/tables/cleaning_log.csv,src/01_clean.py,Every cleaning step and flag with rows before/after (D1-D15),21,6,True,079a9ebc8e23b7cbfdf83fdf49c7b9778667c5012878d62cacbe77d95e680c2d
+results/tables/dataset_summary_before_after.csv,src/01_clean.py,Dataset description before vs after cleaning,17,3,True,346f270bef0fbcb9a5d4c8b20223fcf7be5b49f7bc0bf492afc3cc87daf86f1c
+results/tables/dataset_summary_by_agent.csv,src/01_clean.py,"Issues per agent before/after cleaning, closed issues, RQ2 eligibility",13,6,True,179c0a3208d5a83c07ad3345437b9f46106de1cccc3350c3e0208e0d11058e6b
+results/tables/dropped_duplicates.csv,src/01_clean.py,issue_ids removed as re-submitted duplicates (D3),30,1,True,7e75f25470723db9c7937b0bdf10fecfb7b0cf758d9ec0611b9891238fcbf24b
+results/tables/label_category_map.csv,src/01_clean.py,"Every distinct normalised label, its category (D9) and issue count",1345,3,True,1a1c10865279465ac43837dce577a9ab2ba43dc9647345574e344f1e48e6e193
+results/tables/release_dates.csv,src/01_clean.py,Agent public release dates with sources and confidence (D8),13,4,True,412c7ac14348d1ac50ee3f02c00102e541c231ae0b78594c9f63530d753279f3
+results/tables/rq1_FA_own_bot_closure.csv,src/02_rq1.py,"RQ1 finding A: own-bot vs other closure, two-proportion test, age check",5,20,True,b5bdb8b8ec41533366c75b5795ff05cf2945bbedb2883f90fdba8d55deb3ca5b
+results/tables/rq1_FB_labelling_illusion.csv,src/02_rq1.py,RQ1 finding B: any-label vs triage-label rates and ranks,13,13,True,4eb79e427722cb2fb9d37292b7c345d0d67335a35e544b32923168a2d8769157
+results/tables/rq1_T1_agent_profile.csv,src/02_rq1.py,"RQ1 T1: agent profile (M1.1-M1.6, M1.9, M1.10), Wilson CIs, repo Gini",14,29,True,04fd11fa503b2e982a3da9cf720ebc89e9efb7150a7776c64363720079e840fd
+results/tables/rq1_T2_label_categories.csv,src/02_rq1.py,RQ1 T2: % of issues per label category per agent (M1.7),13,7,True,99510334a3e984f6f4916d0cfc355795457ce98dea0564b51131a7b8e067d7d3
+results/tables/rq1_T2_top_labels.csv,src/02_rq1.py,RQ1 T2: top-5 raw labels per agent,62,4,True,9f4543f55d183777b6952c44b5b5dc404e53afa68f02d211ef8918f1c0d4574a
+results/tables/rq1_T3_association_tests.csv,src/02_rq1.py,"RQ1 T3: chi-square (permutation p), Cramer's V, Holm (M1.8-M1.10)",5,11,True,1ec340ee17f461c5a7d469b81810c556db00a66b8cd6fcdfdbc8e1b928b79bb6
+results/tables/rq1_X2_adjusted_residuals.csv,src/02_rq1.py,RQ1 X2: adjusted residuals for every agent x category cell,154,7,True,208afd103f6bc3eb3f80f62d61eed215921a21290f10a0210007caa8169788c3
+results/tables/rq1_X3_monthly_volume.csv,src/02_rq1.py,RQ1 X3: issues created per agent per month (long format),256,3,True,4bcff54e8f2209ecb6f1cb3b666e29012f9690ebd93aa7dbed57ac0dacae1e5c
+results/tables/rq2_T1_distribution_check.csv,src/03_rq2.py,"RQ2 M2.3: skewness, Shapiro-Wilk and Lilliefors per agent",12,11,True,1ac19d961aca58c53c74841626d02e8d01f2ee186a28efb43366a0ebcd779422
+results/tables/rq2_T2_ttc_summary.csv,src/03_rq2.py,"RQ2 M2.1-M2.2: TTC median (exact 95% CI), IQR, P90, mean, SD per agent",12,13,True,9011fd4e9f763646399fe17424b6f08572aeb1375b0bf4882c40bf8582e02a02
+results/tables/rq2_T3_pairwise_dunn_cliff.csv,src/03_rq2.py,"RQ2 M2.5: all 55 agent pairs, Dunn p (Holm), Cliff's delta",55,8,True,30b749b1cef70166c7b1790858b5278004020f350af2c88fb05e025c9015d3f3
+results/tables/rq2_T4_kaplan_meier.csv,src/03_rq2.py,"RQ2 M2.6: Kaplan-Meier median TTC (95% CI), open issues censored",12,9,True,4449f1ded3d66abf5e157a051fbc866270ff0310b83b05a0beee05219c89d222
+results/tables/rq2_T5_ttc_by_outcome.csv,src/03_rq2.py,RQ2 M2.7: TTC per agent for completed / not planned / duplicate closures,33,6,True,fccd808f1a9053bfb9ca49d23fc9ec05cce1324d5735cc04cb30079ddd58eb07
+results/tables/rq2_T6_tests.csv,src/03_rq2.py,"RQ2: Kruskal-Wallis (all, completed, not planned) with epsilon-squared; log-rank",3,10,True,482027c1e0fda9ac43a3a6361ebcb407ec07c90f2754c8878cfaf55882bca096
+results/tables/rq2_T7_sensitivity.csv,src/03_rq2.py,"RQ2: sensitivity checks S1-S4 (Kruskal-Wallis, epsilon2, rank stability)",5,11,True,735c225ed98d2a3c9bf44c4646ace9cccdb98d7c83c66e0fbb507fd7957cddc8
+results/tables/rq2_T8_ranking_closed_vs_km.csv,src/03_rq2.py,RQ2: agent ranking by closed-only vs Kaplan-Meier median,11,7,True,21dfa465c879b3c4b37ff3500fca75beb6b8c7f569d59f46ca5ea7d3c31f45b9
+results/tables/rq2_Y1_own_bot_ttc.csv,src/03_rq2.py,RQ2 extra Y1: own-bot vs other TTC within CodeRabbit and Devin,2,15,True,3a12dd8a76dcd2e79f33e99194a6f1759541102ee9ad1cd039f1fe6a4c6b6ac2
+results/tables/rq3_T1_topics.csv,src/07_rq3_topics.py,"RQ3 M3.2: topics at both levels: label, stability grade, top words, prevalence",7,10,True,ae4de409730ff2c4a7550bf2239a7c772bc3c3ba0eaf623d40e37454e239f005
+results/tables/rq3_T1b_representative_issues.csv,src/07_rq3_topics.py,RQ3 M3.2: three most representative issues per topic,21,7,True,425086bef57917fda55aa2bb353949f1fb4b4691c95540f84ccb691e382d8cda
+results/tables/rq3_T2_agent_topic_shares.csv,src/07_rq3_topics.py,RQ3 M3.3: mean topic share per agent with bootstrap 95% CIs,77,9,True,0e3e06c25cabd20e23da50a1d3bd801305fa5cc4dad576f5e20bf67194f1aafe
+results/tables/rq3_T3_association.csv,src/07_rq3_topics.py,"RQ3 M3.4: agent x dominant topic chi-square, Cramer's V; S2, S3 and refits",9,11,True,81db731fca211d4dc4d01f0662d6f2e4ac965d573d6c63a6836e19898079a56c
+results/tables/rq3_T3b_adjusted_residuals_fine.csv,src/07_rq3_topics.py,"RQ3: adjusted residuals agent x topic, fine view",11,6,True,12e428a06854baab1da2bce154759bbd6cc7dc129ea7918da30381cd3dc869de
+results/tables/rq3_T3b_adjusted_residuals_headline.csv,src/07_rq3_topics.py,"RQ3: adjusted residuals agent x topic, headline level",11,3,True,3ba3af32648cbbb64251cb0493791e10fcca329827983f38d3c477c7ab070b5c
+results/tables/rq3_T3c_adjusted_residuals_S3_fine.csv,src/07_rq3_topics.py,"RQ3: adjusted residuals on the S3 subset, fine view",11,6,True,8bd747cae088aa5d074b884f9ffb5a5ceaf1e117e2878aafca34db9a7294f6f3
+results/tables/rq3_T3c_adjusted_residuals_S3_headline.csv,src/07_rq3_topics.py,"RQ3: adjusted residuals on the S3 subset, headline",11,3,True,c8378a30609632f777efd51b718cb2774c5827d5cdb815516ae572d5f63f9f09
+results/tables/rq3_T4_stability.csv,src/07_rq3_topics.py,RQ3 Z1: topic overlap with the 2nd ensemble and the >= 5-token refit,7,8,True,aba279edd121e76c38c9058f74909db6b58f9a142c7be188a9e691245908b2e5
+results/tables/rq3_T5_topic_ttc.csv,src/07_rq3_topics.py,"RQ3 Z2: TTC per fine topic (closed median, Kaplan-Meier median)",5,9,True,ebbeae24eb78f2b3728c415a5cb5ba1d49573103c96434baaabb857cba74ea52
+results/tables/rq3_T5b_topic_ttc_tests.csv,src/07_rq3_topics.py,RQ3 Z2: Kruskal-Wallis and log-rank tests of TTC by topic,2,7,True,1654c2eb9e768748821cc324c7d52c40dd781e0e43503d3d46cd2d88c1a580f0
+results/tables/rq3_T6_topic_roles.csv,src/07_rq3_topics.py,RQ3 Z3: topic shares by authorship role within CodeRabbit and Devin,12,12,True,5be65bff10f3fa097f7d347520212eab274fb165f8c9e2e9e65396f78e7ed310
+results/tables/rq3_T7_bertopic_topics.csv,src/09_rq3_bertopic.py,"RQ3 BERTopic: topics, sizes, top words, matched LDA topic",5,5,True,98202d8866e348be5b9586adcf3b48089b93bdd608816ef611cf1ede8c9651dd
+results/tables/rq3_T8_triangulation.csv,src/09_rq3_bertopic.py,"RQ3 BERTopic vs LDA: word overlap, ARI/AMI, Cramer's V for both methods",1,14,True,f25f2b75dbc0a470cd3446f28f944a0b743bcfc9bdebabd32a256ecb61101514
+results/tables/rq3_T8b_bertopic_stability.csv,src/09_rq3_bertopic.py,RQ3 BERTopic: stability across seeds,2,4,True,d6532181d53a8ea75d958964d385360b12dc9235606a7c3384e18b36bb28b6b4
+results/tables/rq3_T8c_agreement_by_agent.csv,src/09_rq3_bertopic.py,RQ3 BERTopic vs LDA: share in the matched topic per agent,11,2,True,295c53c50ac6b78080b855a798bc1b665549b58cea772949124738401a3bec10
+results/tables/rq3_T8d_bertopic_adjusted_residuals.csv,src/09_rq3_bertopic.py,RQ3 BERTopic: residuals agent x BERTopic's own topics,11,6,True,8a68c697254f547476d0c43326df71eebe5907f7b1bebe17572f92e650317cff
+results/tables/rq3_ensemble_selection.csv,src/06_rq3_ensemble.py,RQ3 Ensemble LDA: stable/reproduced topics per eps; both levels,6,7,True,1715a89daef3b0185147cf894a8d605d125725f33ed2e30472b58587bba16d99
+results/tables/rq3_model_selection.csv,src/05_rq3_select.py,"RQ3 single LDA: C_v and UMass, k = 5-20 x 3 seeds, then priors",75,7,True,eebf9264b1a9a300b2c52d220c78093c8c4066cace7d7eaf57f53081e3624e50
+results/tables/rq3_preprocessing_log.csv,src/04_rq3_preprocess.py,RQ3 corpus construction: documents and lines kept/removed at each step,10,2,True,36d40a7a0460dd79b713378fbca1d17ac2e199bcdc00eff262537ae79045c506
+results/tables/rq3_selected_model.csv,src/05_rq3_select.py,RQ3 single LDA: selected k and priors,1,10,True,691578f51ee299fbd6036d2076918a8fd0ead5da210fa9adfbc5cac9e134de5d
+results/tables/rq3_single_lda_stability.csv,src/05_rq3_select.py,RQ3 single LDA: topic reproducibility across seeds per k,16,3,True,78bc829cd89d391f425630a98dfdfb139d29abb527edf9f7266ec3dd8b440bd5
+results/tables/rq3_stable_topics.csv,src/06_rq3_ensemble.py,RQ3 Ensemble LDA: topics at both levels with overlap with the second ensemble,7,8,True,f78221369bc7302d01ca968be9d38fb0b04851cc2d7b58cdce54c05296c010cc
+results/tables/rq3_template_lines.csv,src/04_rq3_preprocess.py,RQ3 template lines removed (masked line repeated in >= 10 issues),347,2,True,973627fc0d0a78f3fc68b49ca7966073d5de9ec4cfa8872efc19279d6f46ebe6
+results/tables/validation_V1_key.csv,src/10_validation.py,Manual validation V1: our attribution of the 99 sampled issues,99,7,True,6e2fadcc9ac18d5a598cd13d410f5e2e68e84ee15926849f97b69b78149e3e97
+results/tables/validation_V3_key.csv,src/10_validation.py,Manual validation V3: our language flag for the 40 sampled issues,40,4,True,643090369a33d88b5965695e4077a6f7cbdaa4b5985c00c393e8463ce2de037d
+results/tables/validation_summary.csv,src/10_validation.py,"Manual validation: author's answers vs our classifications, Wilson 95% CIs",31,8,True,98468ab11285a9a93aa65fd45201936f0c7afd038175d3f67be6c46ee5deacef
+results/figure_data/rq1_F1_volume_state.csv,src/02_rq1.py,Exact values plotted in figure rq1_F1_volume_state,13,10,True,2534e3b9258a5451845a76db589feefb286b3cc9cb8c01f50af2b1ee443cd7d1
+results/figure_data/rq1_F2_labels_heatmap.csv,src/02_rq1.py,Exact values plotted in figure rq1_F2_labels_heatmap,13,7,True,0d6baba094093969fd04c7838ed06ba10f06f0f743cc6d3a0e705f7b9524eccf
+results/figure_data/rq1_F3_attribution_language.csv,src/02_rq1.py,Exact values plotted in figure rq1_F3_attribution_language,91,5,True,c01ef62313eec7659f009d91d660ea71d66421df362d1897855ff227c55ed35c
+results/figure_data/rq1_X2_residuals.csv,src/02_rq1.py,Exact values plotted in figure rq1_X2_residuals,110,4,True,ec8dde9ad62083d83763873d58da48bdc9f7084558cb6a4c2bd494bafb5f47ef
+results/figure_data/rq1_X3_monthly_volume.csv,src/02_rq1.py,Exact values plotted in figure rq1_X3_monthly_volume,28,14,True,1e87dd8373883a8404599310381442436a7d653c0acd2757b3e78112b5459c27
+results/figure_data/rq2_R1_ttc_boxplots.csv,src/03_rq2.py,Exact values plotted in figure rq2_R1_ttc_boxplots,3269,2,True,357276b311602b92ee259ed8958b1d4d5a1e4a88c43bd81f96a58e86543cb4d0
+results/figure_data/rq2_R2_cliffs_delta.csv,src/03_rq2.py,Exact values plotted in figure rq2_R2_cliffs_delta,11,12,True,e56abab39d803768dff82ffa98729a44ad99e401dd94bb3c77162eeb985f935f
+results/figure_data/rq2_R3_kaplan_meier.csv,src/03_rq2.py,Exact values plotted in figure rq2_R3_kaplan_meier,9738,3,True,a30c59507f99007553eddce2a45874baa417619a422bd55167547fd41e481f4c
+results/figure_data/rq2_R4_qq_plots.csv,src/03_rq2.py,Exact values plotted in figure rq2_R4_qq_plots,6538,3,True,2347a2e746f835a50b6492dfe08883b3df067f6b34cfd9c50aa7ecd00ff8e6c6
+results/figure_data/rq3_R1_topic_words.csv,src/07_rq3_topics.py,Exact values plotted in figure rq3_R1_topic_words,50,3,True,71b870a8fb62150b55a928ce156115abf635529c1e5ac7e203773909a65c8b5d
+results/figure_data/rq3_R2_agent_topic_heatmap.csv,src/07_rq3_topics.py,Exact values plotted in figure rq3_R2_agent_topic_heatmap,11,6,True,a96a2fef86891d70d7b77c8b3764b4e666e8e0d9a7a09aa05dab5243d8e78834
+results/figure_data/rq3_R3_topic_ttc.csv,src/07_rq3_topics.py,Exact values plotted in figure rq3_R3_topic_ttc,5,9,True,1860db368f4becdc11420f3b2eb71077b5b27ec958982bf94fe091c3eb790aa5
+results/figure_data/rq3_R4_triangulation.csv,src/09_rq3_bertopic.py,Exact values plotted in figure rq3_R4_triangulation,5,6,True,abd3d76828bed9ae05a3823927817ea013a603144dcaeb7443144e863aea73ca
+results/figure_data/rq3_S1_coherence.csv,src/05_rq3_select.py,Exact values plotted in figure rq3_S1_coherence,16,4,True,6d537489d81893fcdd6081cbff69577d12ffa7340fc304811e88795e1428ce59
+results/figures/rq1_F1_volume_state.pdf,src/02_rq1.py,Figure rq1_F1_volume_state (pdf),,,True,e66d5059a2c34428ad7248cd9935e930cc1ce2ccf60975c5d83d866a0d44ce14
+results/figures/rq1_F1_volume_state.png,src/02_rq1.py,Figure rq1_F1_volume_state (png),,,True,5a8dff14faad16d9908a2a3f1bd80a716f62001319bdd1488635b4480ecddb7e
+results/figures/rq1_F2_labels_heatmap.pdf,src/02_rq1.py,Figure rq1_F2_labels_heatmap (pdf),,,True,287d28f86becd4981f23d606cb6127d363c8a3942b4410ab05c941a392b1b97c
+results/figures/rq1_F2_labels_heatmap.png,src/02_rq1.py,Figure rq1_F2_labels_heatmap (png),,,True,1adbb71fa88b9c08d368e7efd571e213ef1812f49c603d92fedda1e9b35f5d10
+results/figures/rq1_F3_attribution_language.pdf,src/02_rq1.py,Figure rq1_F3_attribution_language (pdf),,,True,2c146bfc79d3e9fed5c8c73b99744cc133a179e10df55af57beb46fc2860d75a
+results/figures/rq1_F3_attribution_language.png,src/02_rq1.py,Figure rq1_F3_attribution_language (png),,,True,62867d29c94ff6a4181b0872224caaa3557609b957b06a196c049e28aceba541
+results/figures/rq1_X2_residuals.pdf,src/02_rq1.py,Figure rq1_X2_residuals (pdf),,,True,3035536a93d1c45d5d5a7a42813f97bd441362ee1275908710d36e0167440028
+results/figures/rq1_X2_residuals.png,src/02_rq1.py,Figure rq1_X2_residuals (png),,,True,f6ba7d98e46f42598c415268991142b7365cfe6bca690b5f74dbbe20d5c49e7b
+results/figures/rq1_X3_monthly_volume.pdf,src/02_rq1.py,Figure rq1_X3_monthly_volume (pdf),,,True,7123e3cf4d75ca689bfc93c86b1d1c3347deab1c5c288c155ea8914c8032043f
+results/figures/rq1_X3_monthly_volume.png,src/02_rq1.py,Figure rq1_X3_monthly_volume (png),,,True,aba9dc0a59bbd232b6b4fdb2047fbb79e7fbe48d3882ec41c628d2514ed27556
+results/figures/rq2_R1_ttc_boxplots.pdf,src/03_rq2.py,Figure rq2_R1_ttc_boxplots (pdf),,,True,f89c13ce9a034ed0fcd8edee6f825ee4951b312919c5d01e24b5a126d21cb449
+results/figures/rq2_R1_ttc_boxplots.png,src/03_rq2.py,Figure rq2_R1_ttc_boxplots (png),,,True,b68b44d960275e0012c9c73e43dd70720fb6febfecd3f1735b1f60744ab7576a
+results/figures/rq2_R2_cliffs_delta.pdf,src/03_rq2.py,Figure rq2_R2_cliffs_delta (pdf),,,True,43a9912507125736a40d773ebc9f57903563ec027113a93310758979ed7eb96c
+results/figures/rq2_R2_cliffs_delta.png,src/03_rq2.py,Figure rq2_R2_cliffs_delta (png),,,True,18dfe3f885f5d4b98fb8114d97ca6cd34e3e1dda89b993714b148b3c7d6226bc
+results/figures/rq2_R3_kaplan_meier.pdf,src/03_rq2.py,Figure rq2_R3_kaplan_meier (pdf),,,True,0c277f43d5b3218959149d0e9338a50faeeacb12a46fd7163823b69133418041
+results/figures/rq2_R3_kaplan_meier.png,src/03_rq2.py,Figure rq2_R3_kaplan_meier (png),,,True,d2259fd3d1abb99dc13d29180ed11b7c22e818306e797df2fed07711dc15e641
+results/figures/rq2_R4_qq_plots.pdf,src/03_rq2.py,Figure rq2_R4_qq_plots (pdf),,,True,b645aa2e47ec6b9e81c3ba145e201669d1b433dabb7af73103c48bfc117f3776
+results/figures/rq2_R4_qq_plots.png,src/03_rq2.py,Figure rq2_R4_qq_plots (png),,,True,3083466f652ee53f9c4f9d1c34849bbaa64a56b71b9bc098cba7efb6aee23796
+results/figures/rq3_R1_topic_words.pdf,src/07_rq3_topics.py,Figure rq3_R1_topic_words (pdf),,,True,1fe5b7cf9d117577234ccf2e01f20a0f83aa73bd10dc8632262fca0e1eb872b1
+results/figures/rq3_R1_topic_words.png,src/07_rq3_topics.py,Figure rq3_R1_topic_words (png),,,True,5da229b2626b16afe3b2cbb88a3ed181e3db23af0b30f17ee11d5ddaa2656f0c
+results/figures/rq3_R2_agent_topic_heatmap.pdf,src/07_rq3_topics.py,Figure rq3_R2_agent_topic_heatmap (pdf),,,True,8cef8c64425e868d608b2d442e364df9b3d0419f6058dfaf1ae8884bf07d3fda
+results/figures/rq3_R2_agent_topic_heatmap.png,src/07_rq3_topics.py,Figure rq3_R2_agent_topic_heatmap (png),,,True,db3a8939352d53d480dabc12be014010826611860e206daab0fd2e8acaac2116
+results/figures/rq3_R3_topic_ttc.pdf,src/07_rq3_topics.py,Figure rq3_R3_topic_ttc (pdf),,,True,29bfbd45d91300db887fe80dfc30787d4c6731b0a15d6ea2b58ef67d9150ff95
+results/figures/rq3_R3_topic_ttc.png,src/07_rq3_topics.py,Figure rq3_R3_topic_ttc (png),,,True,2437e0a404e12b6c4b481d019566b5a8f5f28e958cd72fdc38fb4cff66e0f9c0
+results/figures/rq3_R4_triangulation.pdf,src/09_rq3_bertopic.py,Figure rq3_R4_triangulation (pdf),,,True,e07555e82adef980a3fe269c98d5ebc707b6ea5e355335dd5db6a0fbfe420065
+results/figures/rq3_R4_triangulation.png,src/09_rq3_bertopic.py,Figure rq3_R4_triangulation (png),,,True,fdb29423f2539046768ad63eaa73320dd25e148128198be5654acad76d3ca21c
+results/figures/rq3_S1_coherence.pdf,src/05_rq3_select.py,Figure rq3_S1_coherence (pdf),,,True,009a3a0ef2d803d7509eda85d98cf10fda6cd737b7100310791d6b5e4f64cfc5
+results/figures/rq3_S1_coherence.png,src/05_rq3_select.py,Figure rq3_S1_coherence (png),,,True,21af0162b573ca1d71453fc6f98aa6acd9757193d592c6fba52f1d2ffa7c5394

@@ -1,0 +1,7 @@
+eps,stable_topics_seed42,stable_topics_seed7,reproduced_J_ge_0.5,mean_jaccard,min_topics_both_seeds,level
+0.1,1,1,1,0.666667,1,
+0.15,2,2,2,0.742424,2,headline
+0.2,5,5,2,0.448622,5,fine
+0.25,5,4,2,0.575758,4,
+0.3,2,3,1,0.421569,2,
+0.35,2,3,0,0.333333,2,

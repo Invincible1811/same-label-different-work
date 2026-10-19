@@ -1,0 +1,8 @@
+level,topic,label,stability,interpreted,shared_top10_words_seed7,jaccard_seed7,jaccard_5token_refit
+headline,1,Code maintenance and quality work,reproduced,True,8,0.666667,0.111111
+headline,2,AI/LLM tooling and research,reproduced,True,9,0.818182,0.428571
+fine,1,"Testing, review and quality follow-ups",reproduced,True,8,0.666667,0.111111
+fine,2,Topic 2,not reproduced,False,1,0.0526316,0.111111
+fine,3,"LLM, agent and model features",partly reproduced,False,6,0.428571,0.333333
+fine,4,Code-level fixes and refactoring,reproduced,True,8,0.666667,0.176471
+fine,5,"Build, CI and repository workflow",partly reproduced,False,6,0.428571,0.428571

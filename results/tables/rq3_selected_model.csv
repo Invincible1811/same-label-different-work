@@ -1,0 +1,2 @@
+k,alpha,eta,seed,c_v,best_c_v,tie_tolerance,n_documents,vocabulary,top3_k_stage1
+8,symmetric,0.1,42,0.524384,0.524384,0.005,3816,3088,17 18 8

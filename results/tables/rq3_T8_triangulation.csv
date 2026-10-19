@@ -1,0 +1,2 @@
+documents,topics,word_overlap_mean_jaccard_matched,ARI_LDA_vs_BERTopic,AMI_LDA_vs_BERTopic,share_docs_same_matched_topic,cramers_v_agent_x_topic_LDA,effect_LDA,cramers_v_agent_x_topic_BERTopic,effect_BERTopic,p_perm_BERTopic,cramers_v_BERTopic_min_over_seeds,cramers_v_BERTopic_max_over_seeds,spearman_agent_topic_residuals_LDA_vs_BERTopic
+3816,5,0.335714,0.124475,0.135103,0.368187,0.25857,large,0.212219,medium,9.999e-05,0.208408,0.212219,0.415657

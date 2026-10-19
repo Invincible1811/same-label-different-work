@@ -1,0 +1,22 @@
+level,topic,rank,issue_id,agent,theta,title
+headline,1,1,google-gemini/gemini-cli#7348,Gemini_Code_Assist,0.999442,the whole session was a waste of time and tokens. Please note that I asked to simply audit the codebase and Gemini couldn't do this.
+headline,1,2,mojisejr/mimi-backend#100,Claude_Code,0.999216,[TASK-98-1] Atomic: Fix JobStatus Enum Type Mismatch
+headline,1,3,airbytehq/airbyte-python-cdk#287,Devin,0.998381,feat: Migrate Connector Acceptance Tests to Python CDK
+headline,2,1,ZCjenny549/DailyArXiv#10,SWE_agent,0.998901,"Latest 15 Papers - November 07, 2025"
+headline,2,2,tangwen-qian/DailyArXiv#258,Aider,0.998783,"Latest 15 Papers - April 08, 2025"
+headline,2,3,somewordstoolate/DailyArXiv#160,SWE_agent,0.998623,"Latest 15 Papers - December 29, 2025"
+fine,1,1,google-gemini/gemini-cli#7348,Gemini_Code_Assist,0.999274,the whole session was a waste of time and tokens. Please note that I asked to simply audit the codebase and Gemini couldn't do this.
+fine,1,2,LarsArtmann/typespec-asyncapi#11,Claude_Code,0.997985,🧪 Orphaned Test Infrastructure - Integration & Execution Required
+fine,1,3,jukasdrj/bookstrack-backend#150,Claude_Code,0.997829,CRITICAL: Rewrite websocket-do.test.js - 64 tests validate nothing
+fine,2,1,unclesp1d3r/CipherSwarm#427,CodeRabbit,0.998586,Implement Real-Time Dashboard & Monitoring Infrastructure
+fine,2,2,LeanVibe/agent-hive#23,Claude_Code,0.99854,Integration Agent Sprint: API Integration & Service Mesh Implementation
+fine,2,3,phaserjs/template-react-ts#5,Claude_Code,0.998392,MVP Enhancement Plan: Advanced Cellular Automata Features
+fine,3,1,tangwen-qian/DailyArXiv#258,Aider,0.999179,"Latest 15 Papers - April 08, 2025"
+fine,3,2,ZCjenny549/DailyArXiv#10,SWE_agent,0.998785,"Latest 15 Papers - November 07, 2025"
+fine,3,3,guevara/read-it-later#12371,SWE_agent,0.998755,AI Engineer Reading List
+fine,4,1,jhacksman/knowledge-graph-reasoner#31,Devin,0.994967,Return Type Mismatches
+fine,4,2,jhacksman/knowledge-graph-reasoner#30,Devin,0.99372,Missing Positional Arguments
+fine,4,3,jhacksman/knowledge-graph-reasoner#29,Devin,0.993483,Method Signature Mismatches
+fine,5,1,GuestForProject/fix-link#1,Sweep,0.997235,Sweep: fix links in html`s files. 
+fine,5,2,webstudio-is/webstudio#5409,Claude_Code,0.996491,Phase 7: Git Management
+fine,5,3,RDOToole89/agentic-rn-demo#12,Claude_Code,0.995888,STORY-10: Add Lefthook Git Hooks for Commit & Branch Enforcement

@@ -1,0 +1,78 @@
+level,agent,n_docs,topic,label,mean_share_pct,ci_lo,ci_hi,dominant_pct
+headline,CodeRabbit,1666,1,Code maintenance and quality work,80.9198,80.0668,81.832,91.0564
+headline,CodeRabbit,1666,2,AI/LLM tooling and research,19.0802,18.168,19.9332,8.94358
+headline,Claude_Code,694,1,Code maintenance and quality work,75.8584,74.3379,77.3613,86.3112
+headline,Claude_Code,694,2,AI/LLM tooling and research,24.1416,22.6387,25.6621,13.6888
+headline,Sweep,468,1,Code maintenance and quality work,68.7565,66.7179,70.7885,76.7094
+headline,Sweep,468,2,AI/LLM tooling and research,31.2435,29.2114,33.2821,23.2906
+headline,Devin,345,1,Code maintenance and quality work,75.039,72.4946,77.2786,85.5072
+headline,Devin,345,2,AI/LLM tooling and research,24.961,22.7214,27.5054,14.4928
+headline,SWE_agent,261,1,Code maintenance and quality work,62.9721,59.6342,66.4863,68.9655
+headline,SWE_agent,261,2,AI/LLM tooling and research,37.0279,33.5137,40.3658,31.0345
+headline,Gemini_Code_Assist,150,1,Code maintenance and quality work,70.0029,66.3718,73.4314,82.6667
+headline,Gemini_Code_Assist,150,2,AI/LLM tooling and research,29.9971,26.5686,33.6282,17.3333
+headline,Aider,64,1,Code maintenance and quality work,49.45,43.7598,55.561,46.875
+headline,Aider,64,2,AI/LLM tooling and research,50.55,44.439,56.2402,53.125
+headline,Amazon_Q,55,1,Code maintenance and quality work,65.1064,58.5513,72.3281,74.5455
+headline,Amazon_Q,55,2,AI/LLM tooling and research,34.8936,27.6719,41.4487,25.4545
+headline,Kiro,46,1,Code maintenance and quality work,66.4626,58.7615,73.3571,80.4348
+headline,Kiro,46,2,AI/LLM tooling and research,33.5374,26.6429,41.2385,19.5652
+headline,PR_Agent,34,1,Code maintenance and quality work,66.9828,59.3322,74.0256,76.4706
+headline,PR_Agent,34,2,AI/LLM tooling and research,33.0172,25.9744,40.6678,23.5294
+headline,Jules,33,1,Code maintenance and quality work,66.303,58.6424,73.6162,69.697
+headline,Jules,33,2,AI/LLM tooling and research,33.697,26.3838,41.3576,30.303
+fine,CodeRabbit,1666,1,"Testing, review and quality follow-ups",21.7883,20.3529,23.2073,22.449
+fine,CodeRabbit,1666,2,Topic 2,12.3462,11.3719,13.3007,10.3241
+fine,CodeRabbit,1666,3,"LLM, agent and model features",6.80742,6.15831,7.50663,4.62185
+fine,CodeRabbit,1666,4,Code-level fixes and refactoring,41.7465,40.1651,43.38,46.2785
+fine,CodeRabbit,1666,5,"Build, CI and repository workflow",17.3117,16.1731,18.5117,16.3265
+fine,Claude_Code,694,1,"Testing, review and quality follow-ups",23.5023,21.3875,25.6021,25.2161
+fine,Claude_Code,694,2,Topic 2,24.2437,22.0796,26.4394,27.6657
+fine,Claude_Code,694,3,"LLM, agent and model features",11.5731,10.3417,12.8441,8.93372
+fine,Claude_Code,694,4,Code-level fixes and refactoring,14.6216,13.1064,16.249,12.536
+fine,Claude_Code,694,5,"Build, CI and repository workflow",26.0593,23.7519,28.3847,25.6484
+fine,Sweep,468,1,"Testing, review and quality follow-ups",17.238,14.9775,19.6474,19.6581
+fine,Sweep,468,2,Topic 2,14.2065,12.3105,16.3516,13.4615
+fine,Sweep,468,3,"LLM, agent and model features",16.7599,14.7583,18.8988,15.3846
+fine,Sweep,468,4,Code-level fixes and refactoring,25.3514,22.7819,28.1228,25
+fine,Sweep,468,5,"Build, CI and repository workflow",26.4442,23.998,28.7867,26.4957
+fine,Devin,345,1,"Testing, review and quality follow-ups",22.5028,19.5224,25.4087,25.2174
+fine,Devin,345,2,Topic 2,18.8648,16.3943,21.5964,18.2609
+fine,Devin,345,3,"LLM, agent and model features",12.8515,10.4394,15.2985,10.4348
+fine,Devin,345,4,Code-level fixes and refactoring,24.2106,21.2325,27.32,25.7971
+fine,Devin,345,5,"Build, CI and repository workflow",21.5703,18.9667,24.3906,20.2899
+fine,SWE_agent,261,1,"Testing, review and quality follow-ups",13.7132,11.4912,16.0852,9.96169
+fine,SWE_agent,261,2,Topic 2,6.96685,5.17094,8.792,4.98084
+fine,SWE_agent,261,3,"LLM, agent and model features",29.8821,26.456,33.4928,30.6513
+fine,SWE_agent,261,4,Code-level fixes and refactoring,11.506,9.47172,13.8704,10.728
+fine,SWE_agent,261,5,"Build, CI and repository workflow",37.9318,34.0276,41.6669,43.6782
+fine,Gemini_Code_Assist,150,1,"Testing, review and quality follow-ups",18.3567,14.278,22.3886,16
+fine,Gemini_Code_Assist,150,2,Topic 2,5.84245,3.94706,8.22264,4.66667
+fine,Gemini_Code_Assist,150,3,"LLM, agent and model features",28.1146,24.2651,32.5361,32
+fine,Gemini_Code_Assist,150,4,Code-level fixes and refactoring,18.5669,14.6819,22.57,16
+fine,Gemini_Code_Assist,150,5,"Build, CI and repository workflow",29.1195,24.5623,33.9573,31.3333
+fine,Aider,64,1,"Testing, review and quality follow-ups",13.3818,9.49561,17.6313,9.375
+fine,Aider,64,2,Topic 2,6.80594,3.9677,10.1737,6.25
+fine,Aider,64,3,"LLM, agent and model features",45.1341,38.7948,52.2209,57.8125
+fine,Aider,64,4,Code-level fixes and refactoring,7.97318,5.43892,10.9279,4.6875
+fine,Aider,64,5,"Build, CI and repository workflow",26.7051,20.6914,32.581,21.875
+fine,Amazon_Q,55,1,"Testing, review and quality follow-ups",9.94572,6.39462,13.8424,3.63636
+fine,Amazon_Q,55,2,Topic 2,10.2265,6.46565,14.6491,3.63636
+fine,Amazon_Q,55,3,"LLM, agent and model features",37.4624,29.8088,45.1422,45.4545
+fine,Amazon_Q,55,4,Code-level fixes and refactoring,10.9739,6.89104,15.7249,7.27273
+fine,Amazon_Q,55,5,"Build, CI and repository workflow",31.3916,24.1628,39.0772,40
+fine,Kiro,46,1,"Testing, review and quality follow-ups",15.4313,8.67858,23.104,15.2174
+fine,Kiro,46,2,Topic 2,4.97314,2.25668,8.60296,2.17391
+fine,Kiro,46,3,"LLM, agent and model features",39.2374,30.359,48.0581,47.8261
+fine,Kiro,46,4,Code-level fixes and refactoring,8.88668,5.03041,12.793,4.34783
+fine,Kiro,46,5,"Build, CI and repository workflow",31.4715,23.2879,39.9019,30.4348
+fine,PR_Agent,34,1,"Testing, review and quality follow-ups",12.2179,6.23985,19.8796,11.7647
+fine,PR_Agent,34,2,Topic 2,11.4131,5.48217,18.7608,8.82353
+fine,PR_Agent,34,3,"LLM, agent and model features",26.07,17.9456,34.4513,32.3529
+fine,PR_Agent,34,4,Code-level fixes and refactoring,24.7941,16.0636,34.4913,26.4706
+fine,PR_Agent,34,5,"Build, CI and repository workflow",25.505,15.9454,36.9535,20.5882
+fine,Jules,33,1,"Testing, review and quality follow-ups",18.9243,12.2879,26.5542,21.2121
+fine,Jules,33,2,Topic 2,6.30415,2.39533,10.8299,6.06061
+fine,Jules,33,3,"LLM, agent and model features",27.253,18.1917,37.7214,27.2727
+fine,Jules,33,4,Code-level fixes and refactoring,17.7791,9.57473,27.2486,18.1818
+fine,Jules,33,5,"Build, CI and repository workflow",29.7394,20.8921,39.5259,27.2727

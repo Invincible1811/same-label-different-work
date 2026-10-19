@@ -1,0 +1,6 @@
+subset,agents,n,H,df,p,epsilon2,effect,spearman_rank_vs_main,fastest_agent,slowest_agent
+"Main (all closed, 11 agents)",11,3269,266.361,10,1.95525e-51,0.0815057,medium,1,PR_Agent,CodeRabbit
+S1: created after agent release,11,3260,268.962,10,5.53448e-52,0.082529,medium,0.990909,PR_Agent,CodeRabbit
+S2: human-authored only (author_type = User),11,1996,90.4468,10,4.36729e-15,0.0453368,small,0.9,PR_Agent,Devin
+S3: CodAGE precision subset,10,3024,277.463,9,1.55814e-54,0.0917841,medium,0.951515,Claude_Code,CodeRabbit
+S4: one value per agent-repository (repository median),11,2358,192.642,10,5.50953e-36,0.0817321,medium,0.936364,PR_Agent,CodeRabbit

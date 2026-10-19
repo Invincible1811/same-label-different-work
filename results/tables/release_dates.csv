@@ -1,0 +1,14 @@
+agent_type,release_date,source,confidence
+Aider,2023-05-09,github.com/Aider-AI/aider repository created_at (GitHub API),high
+Sweep,2023-06-14,github.com/sweepai/sweep repository created_at (GitHub API),high
+PR_Agent,2023-07-05,github.com/qodo-ai/pr-agent repository created_at (GitHub API),high
+CodeRabbit,2023-07-10,Product Hunt launch listing; company founded 2023 (sacra.com),medium
+Amazon_Q,2023-11-28,AWS News Blog: Amazon Q preview at re:Invent 2023,high
+Devin,2024-03-12,cognition.ai/introducing-devin,high
+SWE_agent,2024-04-02,github.com/SWE-agent/SWE-agent repository created_at (GitHub API),high
+Gemini_Code_Assist,2024-04-09,"Announced at Google Cloud Next '24 (thenewstack.io, virtualizationreview.com)",high
+Jules,2024-12-11,Google Gemini 2.0 announcement (Labs preview); not re-verified,medium
+Claude_Code,2025-02-24,Anthropic research preview with Claude 3.7 Sonnet,high
+Copilot,2025-05-19,"GitHub Copilot coding agent, Microsoft Build 2025; not re-verified",low
+Kiro,2025-07-14,"GeekWire launch report, 14 Jul 2025",high
+Cursor,2023-03-14,Cursor editor public release; not re-verified,low

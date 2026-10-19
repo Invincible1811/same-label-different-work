@@ -1,0 +1,8 @@
+level,topic,label,stability,interpreted,shared_top10_words_seed7,top_words,top_word_weights,prevalence_pct,dominant_in_n_docs
+headline,1,Code maintenance and quality work,reproduced,True,8,"test, fix, add, validation, verify, error, update, file, review, run","0.104, 0.013, 0.011, 0.011, 0.010, 0.009, 0.009, 0.009, 0.009, 0.009",75.1387,3231
+headline,2,AI/LLM tooling and research,reproduced,True,9,"agent, model, llm, base, task, analysis, learn, data, research, performance","0.015, 0.014, 0.010, 0.008, 0.007, 0.007, 0.007, 0.007, 0.006, 0.006",24.8613,585
+fine,1,"Testing, review and quality follow-ups",reproduced,True,8,"test, fix, add, validation, error, review, verify, file, update, run","0.093, 0.014, 0.010, 0.009, 0.009, 0.009, 0.008, 0.008, 0.008, 0.008",20.421,804
+fine,2,Topic 2,not reproduced,False,1,"integration, phase, implement, test, performance, data, implementation, create, feature, api","0.013, 0.013, 0.012, 0.011, 0.011, 0.010, 0.009, 0.009, 0.008, 0.007",14.4309,522
+fine,3,"LLM, agent and model features",partly reproduced,False,6,"agent, model, llm, tool, task, base, code, context, prompt, learn","0.027, 0.016, 0.010, 0.008, 0.008, 0.007, 0.006, 0.006, 0.006, 0.006",13.6809,479
+fine,4,Code-level fixes and refactoring,reproduced,True,8,"function, type, method, add, code, handle, file, value, return, update","0.020, 0.019, 0.016, 0.014, 0.012, 0.011, 0.010, 0.010, 0.009, 0.008",28.4734,1140
+fine,5,"Build, CI and repository workflow",partly reproduced,False,6,"workflow, file, commit, update, create, add, run, change, action, branch","0.025, 0.020, 0.015, 0.015, 0.015, 0.014, 0.013, 0.012, 0.011, 0.011",22.9937,871

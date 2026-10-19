@@ -1,0 +1,18 @@
+measure,before_cleaning,after_cleaning
+issues (rows),5000,4952
+repositories,3477,3466
+agent types,13,13
+pull requests included,18,0
+re-submitted duplicates (D3 rule),30,0
+closed (API state),3309,3275
+open (API state),1691,1677
+closed %,66.2,66.1
+"median time-to-close, hours (closed only)",49.98,51.13
+issues with >= 1 label,2478,2453
+issue-label pairs,4764,4728
+issues with >= 1 assignee,1909,1897
+issues with >= 1 comment (API count),2546,2516
+bot-authored issues,2304,2278
+empty bodies,129,128
+earliest issue (API created),2019-03-31,2019-03-31
+latest issue (API created),2026-07-27,2026-05-14

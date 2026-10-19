@@ -1,0 +1,3 @@
+test,n,stat,df,p,epsilon2,effect
+Kruskal–Wallis TTC by dominant topic (closed),2591,46.3974,4,2.03574e-09,0.0179141,small
+"Log-rank by dominant topic (all, open censored)",3816,55.739,4,2.27439e-11,,

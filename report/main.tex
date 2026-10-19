@@ -1,0 +1,68 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}  % Times-matched math, so numbers in formulas match the text
+\usepackage{booktabs,graphicx,amsmath,array,multirow,xcolor,url}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cite}
+\graphicspath{{../results/figures/}}
+\input{generated/numbers.tex}
+\makeatletter\newcommand{\inputtab}[1]{\@@input #1 }\makeatother
+\newcommand{\RQ}[1]{\textbf{RQ#1}}
+\definecolor{summarybg}{gray}{0.93}
+\newcommand{\pending}[1]{\textcolor{red}{\textbf{[PENDING: #1]}}}  % must be resolved before submission
+\newcommand{\rqsummary}[2]{\par\smallskip\noindent\colorbox{summarybg}{\parbox{\dimexpr\linewidth-2\fboxsep}{\small\textbf{#1 Summary.} #2}}\par\smallskip}
+
+\begin{document}
+\IEEEoverridecommandlockouts  % allows the course note under the title
+\title{Same Label, Different Work: Roles, Resolution Time and Topics of GitHub Issues Attributed to Thirteen AI Coding Agents%
+\thanks{Submitted for COIS-5210H Advanced Topics in Software Engineering, Individual Assignment 1, Trent University, October 2026.}}
+\author{\IEEEauthorblockN{Bernard Barnieh}
+\IEEEauthorblockA{Trent University\\
+Peterborough, Ontario, Canada}}
+\maketitle
+
+{\small\noindent\textbf{Abstract.} \input{sections/abstract.tex}\par}
+\medskip
+{\small\noindent\textbf{Keywords.} AI coding agents, GitHub issues, mining software repositories, survival analysis, topic modelling, empirical software engineering\par}
+\medskip
+
+\section{Introduction}
+\input{sections/introduction.tex}
+
+\section{Background and Related Work}
+\input{sections/related.tex}
+
+\section{Data and Methodology}\label{sec:method}
+\subsection{Study Design}
+\input{sections/design.tex}
+
+\subsection{Data Source and Processing}
+\input{sections/data.tex}
+
+\section{RQ1: How Do Issues Differ in Volume, State and Labelling?}\label{sec:rq1}
+\input{sections/rq1.tex}
+
+\section{RQ2: Does Time-to-Close Differ Across Agents?}\label{sec:rq2}
+\input{sections/rq2.tex}
+
+\section{RQ3: Which Topics Do the Issues Raise?}
+\input{sections/rq3.tex}
+
+\section{Discussion}\label{sec:discussion}
+\input{sections/implications.tex}
+
+\section{Threats to Validity}\label{sec:threats}
+\input{sections/threats.tex}
+
+\section{Conclusion and Future Work}\label{sec:conclusion}
+\input{sections/conclusion.tex}
+
+\section*{Ethics and Disclosures}
+\input{sections/ethics.tex}
+
+\section*{Data and Replication Package}
+\input{sections/availability.tex}
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+\end{document}

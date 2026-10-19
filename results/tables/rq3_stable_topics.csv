@@ -1,0 +1,8 @@
+level,eps,topic,top_words,seed7_match_top_words,shared_top10_words,jaccard_with_seed7_match,reproduced
+headline,0.15,1,"test, fix, add, validation, verify, error, update, file, review, run","test, run, fix, review, validation, verify, add, file, integration, fail",8,0.666667,True
+headline,0.15,2,"agent, model, llm, base, task, analysis, learn, data, research, performance","agent, model, llm, base, performance, data, learn, task, research, framework",9,0.818182,True
+fine,0.2,1,"test, fix, add, validation, error, review, verify, file, update, run","test, run, fix, review, validation, verify, add, file, integration, fail",8,0.666667,True
+fine,0.2,2,"integration, phase, implement, test, performance, data, implementation, create, feature, api","component, add, page, create, user, button, text, render, display, image",1,0.0526316,False
+fine,0.2,3,"agent, model, llm, tool, task, base, code, context, prompt, learn","agent, model, data, llm, integration, base, performance, analysis, task, learn",6,0.428571,False
+fine,0.2,4,"function, type, method, add, code, handle, file, value, return, update","function, method, add, file, error, code, type, handle, return, fix",8,0.666667,True
+fine,0.2,5,"workflow, file, commit, update, create, add, run, change, action, branch","file, update, add, documentation, workflow, create, change, project, example, code",6,0.428571,False

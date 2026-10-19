@@ -1,0 +1,33 @@
+\textbf{Data source.} The course dataset contains \NRaw{} GitHub issues from \NReposRaw{} repositories, each with an \texttt{agent\_type} label. It appears to be derived from CodAGE~\cite{ghaleb2026codage}, a dataset of agent-related GitHub events built from GH~Archive, here enriched with live fields from the GitHub API. This is the researcher's inference rather than a statement of the brief: the agent names and the attribution scheme match, and the latest GH~Archive event in the data falls on CodAGE's documented end date. The inference matters for interpretation, because CodAGE favours recall over precision and describes its agent label as a candidate attribution with false positives by design.
+
+\textbf{Cleaning.} Fifteen documented decisions were applied (Table~\ref{tab:cleaning}); every step records its row count, and the raw files are never changed. The cleaning removed \NPR{} pull requests that were stored as issues, and \NDup{} re-submitted duplicates, that is, issues with the same repository and the same normalised title and body posted within 24 hours, of which the first is kept. Issues that maintainers \emph{closed as} duplicates stay in the data, since they are real maintainer decisions. Time-to-close was recomputed from the API timestamps, because the archive-based fields were stale, and all durations were kept, including \NInstant{} issues closed within a minute and \NOverYear{} that took more than a year: trimming them would hide exactly the behaviour under study. The \NOpen{} open issues (\PctOpen\%) are kept and treated as censored at the most recent API update in the data. The result is \NIssues{} issues from \NRepos{} repositories. Copilot and Cursor have three issues each and therefore appear only in descriptive results.
+
+\begin{table}[t]
+\caption{Data processing decisions; the full log is in the replication package}\label{tab:cleaning}
+\centering\footnotesize
+\begin{tabular}{@{}l p{0.82\linewidth}@{}}
+\toprule
+D1 & Raw files read-only; every step logged with row counts\\
+D2 & Pull requests removed (\(-\)\NPR)\\
+D3 & Re-submitted duplicates removed (\(-\)\NDup); issues \emph{closed as} duplicate kept\\
+D4 & Time-to-close from API timestamps, in hours\\
+D5 & No outlier trimming (\NInstant{} closed within a minute, \NOverYear{} after over a year)\\
+D6 & Open issues kept and censored (\NOpen)\\
+D7 & Statistical tests only for agents with \(\geq 30\) closed issues (11 agents)\\
+D8 & \texttt{agent\_type} kept as given; flags for bot authors (\NBot) and pre-release issues (\NPreRelease)\\
+D9 & Labels lower-cased and mapped to five categories by published rules\\
+D10 & Text = title + body; text cleaning only for RQ3\\
+D11 & Comment threads not used (no metric needs them)\\
+D12 & Censoring date = latest API update (2026-10-09)\\
+D13 & Language flag: \NNonLatin{} non-Latin script, \NLatinNonEn{} Latin-script non-English\\
+D14 & Renamed repositories and transferred issues flagged\\
+D15 & Attribution signal: own bot \NOwnBot, Actions echo \NActionsEcho, self-referential \NSelfRef\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Attribution signal.} Since the agent label is a candidate attribution, the study records \emph{how} each issue is linked to its agent, following the precision recipe in the CodAGE documentation; Selvanayagam and Ghaleb similarly separated high-confidence signatures from weaker ones when attributing pull requests~\cite{selvanayagam2026aitoai}. An issue is either written by the agent's own bot account (\NOwnBot{} issues, \PctOwnBot\%), re-posted by \texttt{github-actions[bot]} (\NActionsEcho), filed in a repository whose name contains the agent's name, such as the agent's own project (\NSelfRef), or linked by another signal, such as a mention or a trigger keyword (the remainder). Bot logins are the most reliable of these signals, while text signals are the main source of false positives~\cite{ghaleb2026codage}.
+
+\textbf{Language.} Topic modelling needs a single language, and Pham and Ghaleb likewise kept only English descriptions in their study of agent pull requests~\cite{pham2026alignment}. A script and function-word heuristic flags each issue as non-Latin script, Latin-script non-English or English. All issues stay in RQ1 and RQ2; RQ3 uses the English ones.
+
+\textbf{Manual validation.} Three variables come from heuristics, so the researcher validated them by hand on random samples drawn with a fixed seed: the attribution (99 issues, nine per tested agent: is the agent really involved, and in which role?), the RQ3 topic labels (five issues per topic) and the language flag (40 issues). The samples are blind, that is, they do not show the study's own classification, and the answers are saved in the replication package so that others can re-rate them.

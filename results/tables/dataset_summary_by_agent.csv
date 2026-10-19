@@ -1,0 +1,14 @@
+agent_type,before_cleaning,after_cleaning,removed,closed_after,rq2_eligible
+CodeRabbit,1960,1942,18,1160,True
+Claude_Code,880,876,4,694,True
+Sweep,696,685,11,463,True
+Devin,547,538,9,308,True
+SWE_agent,310,309,1,243,True
+Gemini_Code_Assist,257,254,3,203,True
+Amazon_Q,108,107,1,39,True
+Aider,68,68,0,45,True
+Kiro,64,63,1,46,True
+PR_Agent,55,55,0,30,True
+Jules,49,49,0,38,True
+Copilot,3,3,0,3,False
+Cursor,3,3,0,3,False

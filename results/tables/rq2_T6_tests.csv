@@ -1,0 +1,4 @@
+test,agents,n,H,df,p,epsilon2,effect,logrank_chi2_all_issues,logrank_p_all_issues
+"Kruskal–Wallis, all closed",11,3269,266.361,10,1.95525e-51,0.0815057,medium,393.961,1.81511e-78
+"Kruskal–Wallis, completed only",11,2869,278.957,10,4.32141e-54,0.0972653,medium,,
+"Kruskal–Wallis, not_planned only",6,350,21.4705,5,0.000659935,0.06152,medium,,
